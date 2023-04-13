@@ -29,6 +29,7 @@
 
     <!-- Custom  Css -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
 </head>
 
 <body>
@@ -54,13 +55,13 @@
                     <a class="nav-link" href="#client">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link" href="#articles">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price">Store</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -94,6 +95,9 @@
     </div>
 </section>
 <!-- HOME END-->
+
+{{-- Floating Action Button #Fab--}}
+<x-fab/>
 
 <!-- WELCOME START -->
 <section class="section" id="feature">
@@ -467,116 +471,6 @@
 </section>
 <!-- CLIENT END -->
 
-
-
-<!--  PLANS START  -->
-{{--<section class="section bg-light" id="price">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="text-center">
-                    <h4 class="title-heading text-uppercase">Our Plans</h4>
-                    <p class="title-desc text-muted mt-3">Tools are beyond the one-click install, async tech merges with ultimate flexibility experiences that have meaning and add a value.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="price bg-white mt-4 p-5">
-                    <div class="item text-center">
-                        <div class="type pb-3">
-                            <h4>Regular</h4>
-                        </div>
-
-                        <div class="value">
-                            <h3>10.<span>99$</span></h3>
-                            <span class="per text-muted">Per Month</span>
-                        </div>
-
-                        <div class="feature">
-                            <ul class="list-unstyled text-muted">
-                                <li>Bandwidth: 1GB</li>
-                                <li>Onlinespace: 500MB</li>
-                                <li>Support: No</li>
-                                <li>Domain: 1</li>
-                                <li>50 Projects per month</li>
-                                <li>-</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <a href="#" class="btn btn-custom">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="price active mt-4 p-5">
-                    <div class="item text-center">
-
-                        <div class="type pb-3">
-                            <h4>Startup</h4>
-                        </div>
-
-                        <div class="value">
-                            <h3>30.<span>99$</span></h3>
-                            <span class="per">Per Month</span>
-                        </div>
-
-                        <div class="feature">
-                            <ul class="list-unstyled">
-                                <li>Bandwidth: 2GB</li>
-                                <li>Onlinespace: 1GB</li>
-                                <li>Support: No</li>
-                                <li>Domain: 3</li>
-                                <li>200 Projects per month</li>
-                                <li>Hidden Fees: No</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <a href="#" class="btn btn-custom">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="price bg-white mt-4 p-5">
-                    <div class="item text-center">
-                        <div class="type pb-3">
-                            <h4>Business</h4>
-                        </div>
-
-                        <div class="value">
-                            <h3>80.<span>99$</span></h3>
-                            <span class="per text-muted">Per Month</span>
-                        </div>
-
-                        <div class="feature">
-                            <ul class="list-unstyled text-muted">
-                                <li>Bandwidth: 4GB</li>
-                                <li>Onlinespace: 2GB</li>
-                                <li>Support: No</li>
-                                <li>Domain: Unlimited</li>
-                                <li>Unlimited Projects per month</li>
-                                <li>Hidden Fees: No</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <a href="#" class="btn btn-custom">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>--}}
-<!-- PLANS END -->
-
 <!-- TEAM START -->
 <section class="section" id="team">
     <div class="container">
@@ -655,7 +549,7 @@
 <!-- END CTA -->
 
 <!-- BLOG START -->
-<section class="section bg-light" id="blog">
+<section class="section bg-light" id="articles">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
@@ -706,7 +600,7 @@
 
         </div>
         <div class="text-left pt-4 navbar-nav" style="width: 250px">
-            <a href="#feature" class="btn btn-custom">View Blogs <i class="mdi mdi-arrow-right ml-2"></i></a>
+            <a href="#feature" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
         </div>
     </div>
 </section>
