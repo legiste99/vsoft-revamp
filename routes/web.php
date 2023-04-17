@@ -18,5 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/services', function (){
-   return view('services');
-});
+    return view('services');
+ });
+
+ Route::get('/web_services', function (){
+    return view('web_services');
+ });
+
+ Route::get('website_design', function (){
+    return view('website_design');
+ });

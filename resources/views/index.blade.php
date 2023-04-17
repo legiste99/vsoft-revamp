@@ -161,75 +161,85 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">Our Services</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p class="title-desc text-muted mt-3">Script about our services goes here</p>
                 </div>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-6">
-                <div class="services-blog mt-4">
-                    <div>
-                        <i data-feather="monitor"></i>
+                <a href="/web_services">
+                    <div class="services-blog mt-4">
+                        <div>
+                            <i data-feather="monitor"></i>
+                        </div>
+                        <div class="service-head">
+                            <h4>Web Service</h4>
+                            <p class="text-muted mb-0">Script about web services goes here</p>
+                        </div>
                     </div>
-                    <div class="service-head">
-                        <h4>Web Developement</h4>
-                        <p class="text-muted mb-0">Aliquam lorem ante dapibus in, viverra feugiatquis a tellus. Phasellus viverra nulla ut metus varius Quisque rutrum.</p>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-6">
-                <div class="services-blog mt-4">
-                    <div>
-                        <i data-feather="smartphone"></i>
+                <a href="/services">
+                    <div class="services-blog mt-4">
+                        <div>
+                            <i data-feather="smartphone"></i>
+                        </div>
+                        <div class="service-head">
+                            <h4 class="mb-2">Enterprise Solutions</h4>
+                            <p class="text-muted mb-0">Script about Enterprise Solutions goes here</p>
+                        </div>
                     </div>
-                    <div class="service-head">
-                        <h4 class="mb-2">Mobile App Development</h4>
-                        <p class="text-muted mb-0">Nullam dictum felis eu pede mollis pretiumetus Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-2">
-            <div class="col-lg-6">
-                <div class="services-blog mt-4">
-                    <div>
-                        <i data-feather="database"></i>
-                    </div>
-                    <div class="service-head">
-                        <h4>Enterprise Solutions</h4>
-                        <p class="text-muted mb-0">Huge collection perfect of elements, rich customization options, perfect flexible layouts, stunning pages and instant results!.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="services-blog mt-4">
-                    <div>
-                        <i data-feather="command"></i>
-                    </div>
-                    <div class="service-head">
-                        <h4 class="mb-2">Software development</h4>
-                        <p class="text-muted mb-0">Starting from headers through perfect the footers,  kit every bit of perfect match Ave has been engineered for you.</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
 
         <div class="row mt-2">
             <div class="col-lg-6">
-                <div class="services-blog mt-4">
-                    <div>
-                        <i data-feather="eye"></i>
+                <a href="/services">
+                    <div class="services-blog mt-4">
+                        <div>
+                            <i data-feather="database"></i>
+                        </div>
+                        <div class="service-head">
+                            <h4>Cyber / Intelligence Security</h4>
+                            <p class="text-muted mb-0">Script about ---Cyber / Intelligence Security--- goes here</p>
+                        </div>
                     </div>
-                    <div class="service-head">
-                        <h4>Cyber / Intelligence Security</h4>
-                        <p class="text-muted mb-0">Forget about limits!  match Core plugin is the perfect match for Ave. Build and perfect match customize your site visually.</p>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="/services">
+                    <div class="services-blog mt-4">
+                        <div>
+                            <i data-feather="command"></i>
+                        </div>
+                        <div class="service-head">
+                            <h4 class="mb-2">Software Development</h4>
+                            <p class="text-muted mb-0">Script about ---Software Development--- goes here</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-6">
+                <a href="/services">
+                    <div class="services-blog mt-4">
+                        <div>
+                            <i data-feather="eye"></i>
+                        </div>
+                        <div class="service-head">
+                            <h4>Technology Expertise</h4>
+                            <p class="text-muted mb-0">Script about ---Technology Expertise--- goes here</p>
+                        </div>
+                    </div>
+                </a>
             </div>
 
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="services-blog mt-4">
                     <div>
                         <i data-feather="cpu"></i>
@@ -239,17 +249,17 @@
                         <p class="text-muted mb-0">Documentation is not only a guide for Ave, it is a comprehensive kit fully   guide for Ave integrated with the community.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
-        <div class="row mt-4">
+        <!-- <div class="row mt-4">
 
             <div class="col-lg-12">
                 <div class="text-center mt-5">
                     <a href="/services" class="btn btn-custom btn-round">See all Services</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- SERVICES END -->
