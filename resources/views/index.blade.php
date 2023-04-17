@@ -83,7 +83,7 @@
                         <div class="text-left text-white">
                             <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5>
                             <h2 class="home-title mb-4">Create amazing designs with Vsoft Systems</h2>
-                            <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p>
+                            <p class="home-desc text-white-50 mx-auto">We provides end-to-end product development services to various clients, from start-ups to established enterprises, across different industries. We use proven agile methodology to accelerate the development cycle of products from architecture to implementation and deployment.</p>
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="#feature" class="btn btn-custom">View More <i class="mdi mdi-arrow-right ml-2"></i></a>
                             </div>
@@ -103,10 +103,10 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-lg-10">
                 <div class="text-center">
                     <h4 class="title-heading">Starting with Vsoft Systems is easier than anything!</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p class="title-desc text-muted mt-3">Vsoft Systems. (VSOFT) is a high end IT technology company established in 2004. VSOFT has developed a broad business service area in its consulting practices and in-house software and web development. VSOFT service area covers all software development life cycle with today's languages on multiple platforms. VSOFT has developed cutting-edge technical capabilities and has been providing advanced solutions to its customer’s business problem with today's latest technology.</p>
                 </div>
             </div>
         </div>

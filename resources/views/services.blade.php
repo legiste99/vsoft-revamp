@@ -433,7 +433,7 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Cyber Security</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p class="title-desc text-muted mt-3">Our Cyber Security service provides a comprehensive suite of services and solutions that leverage advanced technologies and expert knowledge to help organizations proactively detect, prevent, and mitigate potential cyber security threats and breaches.</p>
                 </div>
             </div>
         </div>
@@ -447,7 +447,7 @@
                         </div>
 
                         <h4>Hacker Detect, Isolate & Trace</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our Hacker Detect, Isolate & Trace service uses advanced tools and techniques to quickly detect and isolate security breaches, as well as trace the source of the attack, to minimize damage and prevent future incidents.</p>
                     </div>
                 </div>
             </div>
@@ -459,7 +459,7 @@
                             <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Digital Forensics Analytics</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Digital Forensics Analytics" service provides in-depth analysis of digital data to uncover valuable insights, detect potential threats and attacks, and provide evidence for legal or investigative purposes.</p>
                     </div>
                 </div>
             </div>
@@ -470,8 +470,8 @@
                         <div class="mb-4">
                             <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
                         </div>
-                        <h4>Extract physical data from phones Chinese chipsets</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                        <h4>Extract physical data from Chinese phones</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Extract physical data from Chinese Phones" service utilizes advanced techniques and tools to extract physical data from devices with Chinese chipsets, providing comprehensive and reliable insights that can help organizations address critical security challenges.</p>
                     </div>
                 </div>
             </div>
@@ -486,7 +486,7 @@
                         </div>
 
                         <h4>UFED (Forensic Extraction Device) Cloud Analyzer</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "UFED (Forensic Extraction Device) Cloud Analyzer" service enables rapid extraction and analysis of data from cloud-based sources, providing comprehensive insights that can help organizations proactively identify and mitigate potential security risks.</p>
                     </div>
                 </div>
             </div>
@@ -498,7 +498,7 @@
                             <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Smart City Solutions</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Smart City Solutions" leverage cutting-edge technologies to create safe, efficient and sustainable urban environments, enhancing city services and infrastructure while also addressing critical security challenges.</p>
                     </div>
                 </div>
             </div>
@@ -510,7 +510,7 @@
                             <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Analytical analysis and evaluations of systems and hardware</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Analytical analysis and evaluations of systems and hardware" service provides thorough testing and analysis of software and hardware systems to identify vulnerabilities, assess risk, and ensure optimal performance and security.</p>
                     </div>
                 </div>
             </div>
@@ -525,7 +525,7 @@
                         </div>
 
                         <h4>Biometric Solution</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Biometric Solution" service provides cutting-edge biometric technologies to enable secure and efficient access control, identity verification, and fraud prevention, offering advanced security measures that enhance operational efficiency and customer experience.</p>
                     </div>
                 </div>
             </div>
@@ -537,7 +537,7 @@
                             <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Smart Geo-fencing - Mobile User Activity</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Smart Geo-fencing - Mobile User Activity" service leverages advanced geofencing technologies to monitor mobile user activity, enabling organizations to proactively detect and prevent potential security threats and ensure optimal data protection.</p>
                     </div>
                 </div>
             </div>
@@ -549,7 +549,7 @@
                             <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>LBS Tracker</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "LBS Tracker" service provides advanced location-based tracking technologies to enable real-time monitoring and analysis of mobile devices, delivering critical insights that can be used to address security threats, track assets, and improve operational efficiency.</p>
                     </div>
                 </div>
             </div>
@@ -564,7 +564,7 @@
                         </div>
 
                         <h4>Risk Advisory</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Risk Advisory" service provides expert analysis and guidance to help organizations identify and mitigate potential security risks, develop effective risk management strategies, and ensure ongoing compliance with regulatory requirements.</p>
                     </div>
                 </div>
             </div>
@@ -576,7 +576,7 @@
                             <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Information Security</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Information Security" service provides comprehensive protection for critical data and assets, utilizing advanced security technologies and expert knowledge to prevent cyber attacks, detect potential threats, and ensure ongoing data protection.</p>
                     </div>
                 </div>
             </div>
@@ -588,7 +588,7 @@
                             <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Security Integration</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Security Integration" service provides seamless integration of security technologies into existing IT infrastructure, enabling organizations to achieve optimal security performance and protection without disrupting daily operations.</p>
                     </div>
                 </div>
             </div>
