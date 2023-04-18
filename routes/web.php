@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/services', function (){
-    return view('services');
+    return view('services.services');
  });
 
  Route::get('/web_services', function (){
@@ -28,3 +28,53 @@ Route::get('/services', function (){
  Route::get('website_design', function (){
     return view('website_design');
  });
+
+ //Services / Cyber Security /
+Route::get('/services/cyber-security/analytical-analysis', function (){
+    return view('services.cyber_security.analytical_analysis');
+});
+
+Route::get('/services/cyber-security/biometric-solutions', function (){
+    return view('services.cyber_security.biometric_solutions');
+});
+
+Route::get('/services/cyber-security/digital-forensics', function (){
+    return view('services.cyber_security.digital_forensics');
+});
+
+Route::get('/services/cyber-security/extract-physical-data', function (){
+    return view('services.cyber_security.extract_physical_data');
+});
+
+Route::get('/services/cyber-security/hacker-detect', function (){
+    return view('services.cyber_security.hacker_detect');
+});
+
+Route::get('/services/cyber-security/information-security', function (){
+    return view('services.cyber_security.information_security');
+});
+
+Route::get('/services/cyber-security/lbs-tracker', function (){
+    return view('services.cyber_security.lbs_tracker');
+});
+
+Route::get('/services/cyber-security/risk_advisory', function (){
+    return view('services.cyber_security.risk_advisory');
+});
+
+Route::get('/services/cyber-security/security-integration', function (){
+    return view('services.cyber_security.security_integration');
+});
+
+Route::get('/services/cyber-security/smart-city-solutions', function (){
+    return view('services.cyber_security.smart_city_solutions');
+});
+
+Route::get('/services/cyber-security/smart-geo-fencing', function (){
+    return view('services.cyber_security.smart_geo_fencing');
+});
+
+Route::get('/services/cyber-security/ufed', function (){
+    return view('services.cyber_security.ufed');
+});
+
