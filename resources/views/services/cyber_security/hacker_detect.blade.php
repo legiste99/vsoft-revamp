@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vsoft Systems</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="vsoftsystems" />
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Magnificpopup Css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!--Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css"/>
-    <link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.transitions.css"/>
-
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+    <x-head/>
 </head>
 
 <body>
@@ -44,7 +16,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#home">Home</a>
-                </li>
+                </li>{{--
                 <li class="nav-item">
                     <a class="nav-link" href="#service">Services</a>
                 </li>
@@ -65,7 +37,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                </li>--}}
             </ul>
         </div>
     </div>
@@ -82,10 +54,10 @@
                     <div class="col-lg-9">
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Website Design</h2>
+                            <h2 class="home-title mb-4">Hacker Detect, Isolate & Trace</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/web_services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+                                <a href="#read-more" class="btn btn-custom"><i class="mdi mdi-arrow-down ml-2">Read More</i></a>
                             </div>
                         </div>
                     </div>
@@ -103,41 +75,16 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-lg-10">
                 <div class="text-center">
-                    <h4 class="title-heading">Website Design Service</h4>
-                    <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
-                    <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
-                  </p>
+                    <h4 class="title-heading">Hacker Detect, Isolate & Trace</h4>
+                    <p class="title-desc text-muted mt-3">Vsoft Systems. (VSOFT) is a high end IT technology company established in 2004. VSOFT has developed a broad business service area in its consulting practices and in-house software and web development. VSOFT service area covers all software development life cycle with today's languages on multiple platforms. VSOFT has developed cutting-edge technical capabilities and has been providing advanced solutions to its customer’s business problem with today's latest technology.</p>
                 </div>
             </div>
         </div>
 
         <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
-                    </div>
-                </div>
-            </div>
+
 
             <div class="col-lg-4">
                 <div class="features mt-4">
@@ -145,8 +92,8 @@
                         <div class="mb-4">
                             <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
                         </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
+                        <h4>Vision</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
                     </div>
                 </div>
             </div>
@@ -157,16 +104,16 @@
                         <div class="mb-4">
                             <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
                         </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
+                        <h4>Values</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-
     </div>
 </section>
+<!-- WELCOME END -->
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->

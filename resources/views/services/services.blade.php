@@ -440,6 +440,7 @@
 
         <div class="row mt-4">
             <div class="col-lg-4">
+                <a href="/services/cyber-security/hacker-detect">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -450,6 +451,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our Hacker Detect, Isolate & Trace service uses advanced tools and techniques to quickly detect and isolate security breaches, as well as trace the source of the attack, to minimize damage and prevent future incidents.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
