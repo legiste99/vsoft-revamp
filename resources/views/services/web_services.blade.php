@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vsoft Systems</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="vsoftsystems" />
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Magnificpopup Css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!--Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css"/>
-    <link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.transitions.css"/>
-
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+    <x-head/>
 </head>
 
 <body>
@@ -113,7 +85,7 @@
 
         <div class="row mt-4">
             <div class="col-lg-4">
-                <a href="/website_design">
+                <a href="/services/web-services/website-design">
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">

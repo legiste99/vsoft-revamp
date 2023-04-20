@@ -140,7 +140,7 @@
 
         <div class="row mt-4">
             <div class="col-lg-6">
-                <a href="/web_services">
+                <a href="/services/web-services">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="monitor"></i>
