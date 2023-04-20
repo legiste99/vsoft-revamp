@@ -15,28 +15,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="/#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
+                    <a class="nav-link" href="/#service">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="/#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
+                    <a class="nav-link" href="/#client">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="/#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
+                    <a class="nav-link" href="/#articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
+                    <a class="nav-link" href="/#price">Store</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="/#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="web-services" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -77,7 +77,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading">web_services!!!!</h4>
+                    <h4 class="title-heading">Web Services</h4>
                     <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
 
                             <h4>Website Design</h4>
@@ -100,57 +100,110 @@
             </div>
 
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>Web Maintenance</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
                         </div>
-                        <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>Web Development</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
                         </div>
-                        <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
 
-                        <h4>Graphic Design & Logo Service</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Graphic design is the process of communicating visually using text and images to present information.</p>
+                            <h4>Graphic Design & Logo Service</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Graphic design is the process of communicating visually using text and images to present information.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/Search_Engine_Optimization.jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>Search Engine Optimization</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Vsoft Systems is a Cape Town based company. We offer and are actively engaged in SEO ( search engine optimization ) services for our clients.</p>
                         </div>
-                        <h4>Search Engine Optimization</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Vsoft Systems is a Cape Town based company. We offer and are actively engaged in SEO ( search engine optimization ) services for our clients.</p>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/(PPC)Pay-Per-Click.webp')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>(PPC) Pay-Per-Click</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mil</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/InternetMarketing(SEM).jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
+
+                            <h4>Internet Marketing (SEM)</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Graphic design is the process of communicating visually using text and images to present information.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="/#">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/SEOCopywriting.jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>SEO Copywriting</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Vsoft Systems is a Cape Town based company. We offer and are actively engaged in SEO ( search engine optimization ) services for our clients.</p>
+                        </div>
+                    </div>
+                <</a>
+            </div>
+
+            <!-- <div class="col-lg-4">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -160,7 +213,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mil</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
