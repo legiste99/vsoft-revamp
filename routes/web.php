@@ -30,6 +30,10 @@ Route::get('/services', function (){
  });
 
  //Services / Cyber Security /
+Route::get('/services/cyber-security', function (){
+    return view('services.cyber_security');
+});
+
 Route::get('/services/cyber-security/analytical-analysis', function (){
     return view('services.cyber_security.analytical_analysis');
 });
