@@ -21,12 +21,12 @@ Route::get('/services', function (){
     return view('services.services');
  });
 
- Route::get('/web_services', function (){
-    return view('web_services');
+ Route::get('/services/web-services', function (){
+    return view('services.web_services');
  });
 
- Route::get('website_design', function (){
-    return view('website_design');
+ Route::get('/services/web-services/website-design', function (){
+    return view('services.web_services.website_design');
  });
 
  //Services / Cyber Security /
