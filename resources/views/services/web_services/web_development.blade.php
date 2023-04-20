@@ -103,7 +103,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
                         <!-- <h4>Website Design</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
@@ -115,7 +115,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
                         <!-- <h4>Web Maintenance</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
@@ -127,7 +127,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
                         <!-- <h4>Web Development</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
@@ -191,11 +191,87 @@
 <!-- CONTACT END -->
 
 <!-- FOOTER START -->
-<x-footer/>
+<section class="footer bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer-menu">
+                    <h5 class="mb-4 text-uppercase">VSoft Systems</h5>
+                    <p>The Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium eaque quae ab illo inventore veritatis et.</p>
+                    <div class="text-white">
+                        <a href="#facebook"><i class="mdi mdi-facebook facebook footer_mdi"></i></a>
+                        <a href="#twitter"><i class="mdi mdi-twitter twitter footer_mdi"></i></a>
+                        <a href="#google"><i class="mdi mdi-google google footer_mdi"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="footer-menu">
+                    <h5 class="mb-4 text-uppercase">About</h5>
+                    <ul class="text-muted list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Job Opening</a></li>
+                        <li><a href="#">Term</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="footer-menu">
+                    <h5 class="mb-4 text-uppercase">Help Center</h5>
+                    <ul class="text-muted list-unstyled">
+                        <li><a href="#">Accounting</a></li>
+                        <li><a href="#">Billing</a></li>
+                        <li><a href="#">General Question</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="footer-menu">
+                    <h5 class="mb-4 text-uppercase">Contact us</h5>
+                    <p>The Nam eget dui Etiam rhoncus. Maecenas eget sem quam semper libero.</p>
+                    <span class="footer-support">Support@abc.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center mt-5">
+                    <p class="mb-0">2020  ©  VSoft Systems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- FOOTER END -->
 
 <!-- JAVASCRIPTS -->
-<x-javascript/>
+<script src="js/jquery.min.js"></script>
+<!-- SCROLL -->
+<script src="js/scrollspy.min.js"></script>
+<!-- SCROLL -->
+<script src="js/feather.min.js"></script>
+<!--  -->
+<!-- bootstrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- easing -->
+<script src="js/jquery.easing.min.js"></script>
+<!-- Portfolio -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/isotope.js"></script>
+<!-- scroll -->
+<script src="js/scrollspy.min.js"></script>
+<!-- Counter -->
+<script src="js/jquery.counterup.min.js"></script>
+<!-- Owl Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Custom -->
+<script src="js/app.js"></script>
 
 </body>
 </html>
