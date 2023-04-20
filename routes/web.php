@@ -82,3 +82,7 @@ Route::get('/services/cyber-security/ufed', function (){
     return view('services.cyber_and_intelligence_security.ufed');
 });
 
+Route::get('/services/software-dev', function (){
+    return view('services.software_development');
+});
+
