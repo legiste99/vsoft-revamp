@@ -54,7 +54,7 @@
                     <div class="col-lg-9">
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Website Design</h2>
+                            <h2 class="home-title mb-4">Graphic Design & Logo Service</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/services/web-services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
@@ -75,25 +75,53 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="text-center">
-                    <h4 class="title-heading">Website Design Service</h4>
+            <div class="col-lg-6">
+                <div class="text-left">
+                    <h4 class="title-heading">Graphic Design & Logo Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
+                        Graphic design is the process of communicating visually using text and images to present information.
+                        <br>
+                        <br>
+                        In a graphic oriented website it is important that the graphic element should be defines in proper 
+                        manner which allows the viewers attention to be captured and speak volumes of the business. In business 
+                        world graphics says it all and will either attract or repel a potential client. Well presented graphics 
+                        makes the case for attractive websites and draws the potential client in by create interest and desire 
+                        to get to know the brand better.
+                        <br>
+                        <br>
+                        The Vsoft Systems teamare professional devoted & visionary graphic artists. We are produced some of the 
+                        best graphic solutions by ensuring attention to detail and the latest tools. We are dedicated professionals 
+                        and one of the biggest advantages of working with our company is that we are abreast of 
                   </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="text-left">
+                    <div class="mb-4">
+                    <p>
+                        advanced technology 
+                        to extract value for your business environment for your website thereby creating a positive image to your
+                        customer and clients.Our aim is always to create that kind of website that expresses your ideas in a 
+                        positive manner. You will be always part of the design process where your ideas and input will always 
+                        be taken into consideration in the designing of your website. Our major intention to turn your vision 
+                        into reality through the medium of an effective website design we will during the project provide you 
+                        with all the flexibility that may be needed to create a logo or design that expresses your ethos.
+                        <br>
+                        <br>
+                        If you want cost effective graphic solutions then just click "contact us". Vsoftsystems Graphic 
+                        solutions specialist. We offer our service on clients demand. We offer a free initial consultation 
+                        service and feel free to contact us for any graphics advice.
+                  </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,10 +131,11 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
+                        <h4>Search Engine Marketing</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Now you say: "Whether you're a small business or a high profile corporation, 
+                            we can offer cutting-edge and strategic marketing services that will promote your business on the Internet."</p>
                     </div>
                 </div>
             </div>
@@ -115,10 +144,11 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
+                        <h4>Mobile Application Development</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Mobile applications can help individuals with quicker information access, 
+                            maximum productivity, and timely responsiveness, there helping him reduce operating cost and risks.</p>
                     </div>
                 </div>
             </div>
@@ -127,10 +157,11 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
+                        <h4>Game Development</h4>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Game development is one of the most intricate parts of software development.
+                            Unlike ordinary applications, game development requires completely updated resources.</p>
                     </div>
                 </div>
             </div>
