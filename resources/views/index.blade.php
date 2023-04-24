@@ -134,7 +134,7 @@
 
         <div class="row mt-2">
             <div class="col-lg-6">
-                <a href="/services">
+                <a href="/services/cyber-security">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="database"></i>
