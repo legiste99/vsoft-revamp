@@ -65,6 +65,7 @@
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/digital-forensics">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -74,6 +75,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Digital Forensics Analytics" service provides in-depth analysis of digital data to uncover valuable insights, detect potential threats and attacks, and provide evidence for legal or investigative purposes.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
