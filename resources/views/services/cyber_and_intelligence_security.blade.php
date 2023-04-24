@@ -79,6 +79,7 @@
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/extract-physical-data">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -88,6 +89,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Extract physical data from Chinese Phones" service utilizes advanced techniques and tools to extract physical data from devices with Chinese chipsets, providing comprehensive and reliable insights that can help organizations address critical security challenges.</p>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
 
@@ -210,56 +212,6 @@
 
     </div>
 </section>
-<!-- WELCOME END -->
-
-<!-- SERVICES START -->
-
-<!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>
