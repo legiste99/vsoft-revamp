@@ -6,42 +6,7 @@
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>{{--
-                <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>--}}
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
@@ -72,98 +37,89 @@
 <x-fab/>
 
 <!-- WELCOME START -->
-<section class="section" id="feature">
+<section class="section" id="read-more">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="text-center">
-                    <h4 class="title-heading">Hacker Detect, Isolate & Trace</h4>
-                    <p class="title-desc text-muted mt-3">Vsoft Systems. (VSOFT) is a high end IT technology company established in 2004. VSOFT has developed a broad business service area in its consulting practices and in-house software and web development. VSOFT service area covers all software development life cycle with today's languages on multiple platforms. VSOFT has developed cutting-edge technical capabilities and has been providing advanced solutions to its customer’s business problem with today's latest technology.</p>
+                    <h4 class="title-heading">What is VSOFT Detect, Isolate & Trace?</h4>
                 </div>
+
+                <ul class="features-desc text-muted mt-3 pl-2 pr-2">
+                    <li>Fundamentally, VSOFT Detect, Isolate & Trace is a cyber security vendor. What sets it apart, however, is its innovative use of AI or, more specifically, machine learning.</li>
+                    <br>
+                    <li>At the core of all its products is VSOFT Detect. Isolate & Trace's Organization Detect & Neutralize System, an unsupervised machine learning technology and probabilistic mathematics. What this means in practice is that the software learns from the experience of analyzing vast amounts of data by itself, without human intervention, and can adapt to a business's changing needs. It can also use probabilistic mathematics to determine how likely an attack is.</li>
+                    <br>
+                    <li>One of the products takes this a step further, releasing 'antigens' in the same way the immune system in a living organism does to slow and repel the attack.</li>
+                    <br>
+                    <li>The organisation has also added specialized products focused specifically on cloud, primary defence (such as security information and event management, or SIEM), virtualized environments and industrial control systems.</li>
+                    <br>
+                    <li>In short, VSOFT Detect, Isolate & Trace is a company focused solely on the enterprise, with apparently no intention of heading into the consumer space.</li>
+                </ul>
+
             </div>
         </div>
-
-        <div class="row mt-4">
-
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Vision</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Values</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
-<!-- WELCOME END -->
-<!-- WELCOME END -->
 
-<!-- SERVICES START -->
-
-<!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
+<div class="container" style="padding-bottom: 50px">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="text-left">
+                <h4 class="title-heading">Key Features of the System</h4>
             </div>
+
+            <ul class="features-desc text-muted mt-3 pl-2 pr-2">
+                <li>Adaptive – evolves with your organization</li>
+                <br>
+                <li>Self-learning – constantly refines its understanding of normal</li>
+                <br>
+                <li>Probabilistic – works out likelihood of serious threat</li>
+                <br>
+                <li>Real-time – spots threats as they emerge</li>
+                <br>
+                <li>Works from day one – delivers instant value</li>
+                <br>
+                <li>Low false positives – correlation of weak indicators</li>
+                <br>
+                <li>Data agnostic – ingests all data sources</li>
+            </ul>
+
+        </div>
+
+        <div class="col-lg-5">
+
+            <div class="mb-5">
+                <img src="{{asset('images/services/cyber_security/hacker.jpg')}}" class="img-fluid rounded" alt="">
+            </div>
+
         </div>
     </div>
-</section> -->
-<!-- END CTA -->
+</div>
 
-<!-- BLOG START -->
+<div class="container" style="padding-bottom: 50px">
+    <div class="row justify-content-center">
 
-<!-- BLOG END -->
+        <div class="col-lg-7">
+            <div class="text-left">
+                <h4 class="title-heading">Detection of Human Behavior Deviation Core Elements of the System</h4>
+            </div>
 
-<!-- CONTACT START -->
+            <p class="features-desc text-muted mt-3 pl-2 pr-2">
+                VSOFTsystems detects subtle shifts in behaviors, such as the way someone is using technology, a machine’s data access patterns, or trends in communications, threatening events, such as the theft of a user’s credentials, a compromised device, or the actions of a disaffected or negligent employee.
+            </p>
 
-<!-- CONTACT END -->
+        </div>
+
+        <div class="col-lg-3">
+
+            <div class="mb-4">
+                {{--<img src="{{asset('images/services/cyber_security/hacker.jpg')}}" class="img-fluid rounded" alt="">--}}
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <!-- FOOTER START -->
 <x-footer/>

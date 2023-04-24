@@ -10,25 +10,25 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
+                    <a class="nav-link" href="/#service">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="/#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
+                    <a class="nav-link" href="/#client">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="/#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
+                    <a class="nav-link" href="/#articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
+                    <a class="nav-link" href="/#price">Store</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="/#contact">Contact</a>
                 </li>
             </ul>
         </div>
