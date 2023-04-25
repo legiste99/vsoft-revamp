@@ -119,7 +119,41 @@ Route::get('/services/cyber-security/ufed', function (){
     return view('services.cyber_and_intelligence_security.ufed');
 });
 
+ //Services / Software Development /
 Route::get('/services/software-dev', function (){
     return view('services.software_development');
 });
 
+Route::get('/services/software-dev/sd-and-programming', function (){
+    return view('services.software_development.sd_and_programming');
+});
+
+Route::get('/services/software-dev/mobile-app-&-dev', function (){
+    return view('services.software_development.mobile_app_&_dev');
+});
+
+Route::get('/services/software-dev/game-development', function (){
+    return view('services.software_development.game_development');
+});
+
+ //Services / Tech Expertise /
+
+ Route::get('/services/tech-expertise', function (){
+    return view('services.tech_expertise');
+});
+
+Route::get('/services/tech-expertise/cloud-computing', function (){
+    return view('services.technology_expertise.cloud_computing');
+});
+
+Route::get('/services/tech-expertise/ms-with-health-&-safety', function (){
+    return view('services.technology_expertise.ms_with_health_&_safety');
+});
+
+Route::get('/services/tech-expertise/remote-desktop-support', function (){
+    return view('services.technology_expertise.remote_desktop_support');
+});
+
+Route::get('/services/tech-expertise/rfid-solutions', function (){
+    return view('services.technology_expertise.rfid_solutions');
+});

@@ -60,6 +60,7 @@ h6 {
 
 h6 {
     font-size: 14px;
+    
 }
 
 a {
@@ -1003,3 +1004,14 @@ textarea.form-control {
         top: 7px;
     }
 }
+
+.header1 {
+    text-align: justify;
+  }
+
+  .card {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+ 
