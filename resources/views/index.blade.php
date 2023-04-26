@@ -118,7 +118,7 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <a href="/services">
+                <a href="/services/enterprise-solutions">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="smartphone"></i>
