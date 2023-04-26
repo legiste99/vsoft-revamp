@@ -25,14 +25,9 @@ Route::get('/services', function (){
  Route::get('/services/web-services', function (){
     return view('services.web_services');
  });
-// ----------------------------------------------------------------
  Route::get('/services/web-services/website-design', function (){
     return view('services.web_services.website_design');
  });
-// ----------------------------------------------------------------
-//  Route::get('/services/web-services/website-design', function (){
-//     return view('services.web_services.website_design');
-//  });
 
  Route::get('/services/web-services/web-maintenance', function (){
     return view('services.web_services.web_maintenance');
@@ -64,6 +59,29 @@ Route::get('/services', function (){
 
  Route::get('/services/web-services/SEO-copywriting', function (){
     return view('services.web_services.SEO_copywriting');
+ });
+
+ //Services / Web services /
+ Route::get('/services/enterprise-solutions', function (){
+    return view('services.enterprise_solutions');
+ });
+ Route::get('/services/enterprise_solutions/e-commerce-platform', function (){
+    return view('services.enterprise_solutions.e-commerce_platform');
+ });
+
+ Route::get('/services/enterprise_solutions/enterprise-resource-planning-(ERP)', function (){
+    return view('services.enterprise_solutions.enterprise_resource_planning_(ERP)');
+ });
+
+ Route::get('/services/enterprise-solutions/project-management', function (){
+    return view('services.enterprise_solutions.project_management');
+ });
+ Route::get('/services/enterprise_solutions/fleet-track-management', function (){
+    return view('services.enterprise_solutions.fleet_track_management');
+ });
+
+ Route::get('/services/enterprise_solutions/messaging-e-portal-solution', function (){
+    return view('services.enterprise_solutions.messaging_e-portal_solution');
  });
 
  //Services / Cyber Security /
