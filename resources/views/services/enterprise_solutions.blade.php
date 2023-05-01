@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="web-services" class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="web-services" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -89,7 +89,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/enterprise_solutions/E-Commerce_Platform.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
 
                             <h4>E-commerce Platform</h4>
@@ -104,7 +104,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/enterprise_solutions/Enterprise_Resource_Planning_(ERP).jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Enterprise Resource Planning (ERP)</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
@@ -118,7 +118,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/enterprise_solutions/Project_Management.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Project Management</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>

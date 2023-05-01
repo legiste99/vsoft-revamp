@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -53,9 +53,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="text-left text-white">
-                            <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
                             <h2 class="home-title mb-4">Web Development</h2>
-                            <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/services/web-services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
                             </div>
@@ -68,16 +66,20 @@
 </section>
 <!-- HOME END-->
 
+
 {{-- Floating Action Button #Fab--}}
 <x-fab/>
 
 <!-- WELCOME START -->
 <section class="section" id="feature">
     <div class="container">
+        <div class="text-center">
+            <h4 class="title-heading">Website Development Solutions</h4>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-left">
-                    <h4 class="title-heading">Website Development Solutions</h4>
+                    <!-- <h4 class="title-heading">Website Development Solutions</h4> -->
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                     VsoftSytems offers a professional Website development service to help you successfully plan, create, maintain and market
@@ -126,7 +128,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center">
-                    <h4 class="title-heading">Development Process</h4>
+                    <!-- <h4 class="title-heading">Development Process</h4> -->
                     <div class="mb-4">
                         <img src="{{asset('images/services/web_services_images/Web_Development/test_long_img.jpg')}}" class="img-fluid rounded" alt="">
                     </div>
@@ -141,9 +143,9 @@
                         <div class="mb-4">
                             <img src="{{asset('images/services/web_services_images/Web_Development/image.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <h4>Search Engine Marketing</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Now you say: "Whether you're a small business or a high profile corporation, 
-                            we can offer cutting-edge and strategic marketing services that will promote your business on the Internet."</p>
+                        <!-- <h4>Search Engine Marketing</h4> -->
+                        <!-- <p class="features-desc text-muted mt-3 pl-2 pr-2">Now you say: "Whether you're a small business or a high profile corporation, 
+                            we can offer cutting-edge and strategic marketing services that will promote your business on the Internet."</p> -->
                     </div>
                 </div>
             </div>
@@ -154,9 +156,9 @@
                         <div class="mb-4">
                             <img src="{{asset('images/services/web_services_images/Web_Development/image.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <h4>Mobile Application Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Mobile applications can help individuals with quicker information access, 
-                            maximum productivity, and timely responsiveness, there helping him reduce operating cost and risks.</p>
+                        <!-- <h4>Mobile Application Development</h4> -->
+                        <!-- <p class="features-desc text-muted mt-3 pl-2 pr-2">Mobile applications can help individuals with quicker information access, 
+                            maximum productivity, and timely responsiveness, there helping him reduce operating cost and risks.</p> -->
                     </div>
                 </div>
             </div>
@@ -167,9 +169,9 @@
                         <div class="mb-4">
                             <img src="{{asset('images/services/web_services_images/Web_Development/image.jpg')}}" class="img-fluid rounded" alt="">
                         </div>
-                        <h4>Game Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Game development is one of the most intricate parts of software development.
-                            Unlike ordinary applications, game development requires completely updated resources.</p>
+                        <!-- <h4>Game Development</h4> -->
+                        <!-- <p class="features-desc text-muted mt-3 pl-2 pr-2">Game development is one of the most intricate parts of software development.
+                            Unlike ordinary applications, game development requires completely updated resources.</p> -->
                     </div>
                 </div>
             </div>
@@ -180,204 +182,9 @@
 </section>
 <!-- WELCOME END -->
 
-<!-- PORTFOLIO START-->
-<section class="section bg-white pb-0" id="portfolio">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <h4 class="title-heading text-uppercase">Our Portfolio</h4>
-                    <p class="title-desc text-muted mt-3">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- portfolio menu -->
-        <div class="row mt-4">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <ul class="col container-filter categories-filter list-unstyled mb-0" id="filter">
-                        <li><a class="categories active" data-filter="*">All</a></li>
-                        <li><a class="categories" data-filter=".Software">Software</a></li>
-                        <li><a class="categories" data-filter=".Mobile">Mobile App</a></li>
-                        <li><a class="categories" data-filter=".Website">Website</a></li>
-                        <li><a class="categories" data-filter=".Logo">Logo Design</a></li>
-                        <li><a class="categories" data-filter=".Graphics">Graphics</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- End portfolio  -->
-
-    </div>
-
-    <!-- Gallary -->
-    <div class="container-fluid">
-        <div class="row container-grid mt-5 projects-wrapper">
-            <div class="img-max-width Software">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container profile business" src="{{asset('images/portfolio/work-1.jpg')}}" alt="1" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Software</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width Mobile">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container mfp-fade" src="{{asset('images/portfolio/work-1.jpg')}}" alt="2" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Mobile App</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width Website">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="3" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Website</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width marketing">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="4" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Logo Design</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width finance marketing">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="5" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Graphics</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width profile marketing">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="6" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Graphics</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width business">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="7" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Graphics</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="img-max-width marketing">
-                <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="{{asset('images/portfolio/work-1.jpg')}}" title="Project Name">
-                        <img class="item-container" src="{{asset('images/portfolio/work-1.jpg')}}" alt="8" />
-                        <div class="item-mask">
-                            <div class="item-caption">
-                                <h5 class="text-light">Graphics</h5>
-                                <p class="text-light">Web site Development Solutions</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- PORTFOLIO END-->
-
 <!-- SERVICES START -->
-
+<x-services_services/>
 <!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>
