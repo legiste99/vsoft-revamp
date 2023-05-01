@@ -95,6 +95,7 @@
 
         <div class="row mt-4">
             <div class="col-lg-4">
+                <a href="/services/cyber-security/ufed">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -105,6 +106,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "UFED (Forensic Extraction Device) Cloud Analyzer" service enables rapid extraction and analysis of data from cloud-based sources, providing comprehensive insights that can help organizations proactively identify and mitigate potential security risks.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
@@ -147,6 +149,7 @@
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/smart-geo-fencing">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -156,9 +159,11 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Smart Geo-fencing - Mobile User Activity" service leverages advanced geofencing technologies to monitor mobile user activity, enabling organizations to proactively detect and prevent potential security threats and ensure optimal data protection.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/lbs-tracker">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -168,11 +173,13 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "LBS Tracker" service provides advanced location-based tracking technologies to enable real-time monitoring and analysis of mobile devices, delivering critical insights that can be used to address security threats, track assets, and improve operational efficiency.</p>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-4">
+                <a href="/services/cyber-security/risk_advisory">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -183,9 +190,12 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Risk Advisory" service provides expert analysis and guidance to help organizations identify and mitigate potential security risks, develop effective risk management strategies, and ensure ongoing compliance with regulatory requirements.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
+
             <div class="col-lg-4">
+                <a href="/services/cyber-security/information-security">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -195,9 +205,11 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Information Security" service provides comprehensive protection for critical data and assets, utilizing advanced security technologies and expert knowledge to prevent cyber attacks, detect potential threats, and ensure ongoing data protection.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/security-integration">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -207,6 +219,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Security Integration" service provides seamless integration of security technologies into existing IT infrastructure, enabling organizations to achieve optimal security performance and protection without disrupting daily operations.</p>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
 
