@@ -147,7 +147,7 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <a href="/services">
+                <a href="/services/software-dev">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="command"></i>
@@ -163,7 +163,7 @@
 
         <div class="row mt-2">
             <div class="col-lg-6">
-                <a href="/services">
+                <a href="/services/tech-expertise">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="eye"></i>
