@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -54,10 +54,10 @@
                     <div class="col-lg-9">
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Search Engine Optimization</h2>
+                            <h2 class="home-title mb-4">Messaging E-Portal Solution</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/services/web-services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+                                <a href="/services/enterprise-solutions" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Enterprise Solutions</i></a>
                             </div>
                         </div>
                     </div>
@@ -72,197 +72,115 @@
 <x-fab/>
 
 <!-- WELCOME START -->
+
 <section class="section" id="feature">
     <div class="container">
+            <div class="text-center">
+                <h4 class="title-heading">Messaging E-Portal Solution</h4>
+            </div>
         <div class="row justify-content-center">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h4 class="title-heading">Search Engine Optimization</h4>
+            
+        <div class="col-lg-12">
+                <div class="text-left">
+                    <div class="mb-4">
+                    <p>
+                    VSOFT systems has become SA’s leading interactive automated messaging provider. 
+                    VSOFT systems is known to be the only messaging provider with a platform that 
+                    sends messaging across any channel including, but not limited to:
+                  </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="text-left">
+                    <!-- <h4 class="title-heading">Graphic Design & Logo Service</h4> -->
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                        Vsoft Systems is a Cape Town based company. We offer and are actively engaged in SEO 
-                        ( search engine optimization ) services for our clients.
+                        <b>Interactive Voice</b> 
                         <br>
                         <br>
-                        We offer Pay-Per-Click (PPC) Consulting Search Engine Marketing (SEM), Link Building, 
-                        SEO Consulting, SEO Copy writing, case study (SEO report). We have dedicated team and 
-                        experts that analyze which aspect is important for web page optimization. We have dedicated 
-                        team of experts that analyze which aspect is important for web page optimization.<br>
-                    </p>
+                        <b>Interact SMS</b> 
+                        <br>
+                        <br>
+                        <b>Interactive Digital Letters/Notifications</b> 
+                        <br>
+                        <br>
+                        <b>Interactive E-mail</b> 
+                        <br>
+                        <br>
+                        <b>Interactive MMS</b> 
+                        <br>
+                        <br>
+                        <b>Interactive USSD</b> 
+                        <br>
+                        <br>
+                        <b>Interactive Short Codes and Long Codes</b> 
+                        <br>
+                        <br>
+                        <b>Interactive "Please Call Me" messages</b> 
+                        <br>
+                        <br>
+                        <b>Interactive "Missed Calls"</b> 
+                  </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="text-left">
+                    <div class="mb-4">
+                    <p>
+                        VSOFTsystems has developed a unique system that specialises in e-billing and the delivery of documents, 
+                        statements and advertising to client visa SMS or MMS. The end user receives the e-mail with the same 
+                        look and feel of the original paper document, together with value added functionality that is absent 
+                        in the paper-based version.
+                        <br>
+                        <br>
+                        Our innovative and client centred approach coupled with our new market innovative approach we have 
+                        positioned itself as a market leader in electronic document generation, delivery and management company.
+                        <br>
+                        <br>
+                        VSOFTsystems was borne out of niche market spectrum which required an IT solution based business which 
+                        per our clients needed to be quick and response to the fast pace of the IT world. With the problems and 
+                        the deterioration of the postal delivery services we looked at options at meeting this need by our 
+                        clients to communicate with their clients in a new and real time environment. An added challenges was 
+                        that due to density of population and no easy way to confirm delivery of documents, a means of client 
+                        communication had to be found and we have found with the increased density of clients footprints via 
+                        cellphone and internet the new world of e billing and e documents was born which was a fraction of 
+                        the printed costs. We offer a flexible and proven e-billing solution that is customised to each 
+                        company's specific requirements.
+                        <br>
+                        <br>
+                        Our systems are such that the recipient receives their documents electronically with the same 
+                        "look and feel" as the original paper-based document, together with value added functionality 
+                        that the paper-based document did not have.
+                        <br>
+                        <br>
+                        This technologically advanced and easy-to-use system sends documentation such as invoices, 
+                        statements, payslips, reports and notifications, securely by e-mail, and sends transaction-based 
+                        information via SMS. Our generation system is tightly integrated with a user-friendly Tracking and 
+                        Management System, which makes it easy to manage electronically stored documents. Monitoring 
+                        bounced e-mail and resending undelivered documents is both quick and convenient.
+                  </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/about/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        
     </div>
 </section>
 <!-- WELCOME END -->
 
-
 <!-- SERVICES START -->
-<section class="section bg-light" id="service">
-    <div class="container">
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <a href="/services/web-services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="monitor"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4>Search Engine Marketing</h4>
-                            <p class="text-muted mb-0">
-                                Now you say: "Whether you're a small business or a high profile corporation, 
-                                we can offer cutting-edge and strategic marketing services that will promote 
-                                your business on the Internet."
-                            </p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">See all Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a href="/services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="smartphone"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4 class="mb-2">Mobile Application Development</h4>
-                            <p class="text-muted mb-0">
-                                Mobile applications can help individuals with quicker information access, 
-                                maximum productivity, and timely responsiveness, there helping him reduce 
-                                operating cost and risks.
-                            </p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">See all Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a href="/services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="smartphone"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4 class="mb-2">Game Development</h4>
-                            <p class="text-muted mb-0">Game development is one of the most intricate parts 
-                                of software development. Unlike ordinary applications, game development 
-                                requires completely updated resources.</p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">See all Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+<x-services_services/>
 <!-- SERVICES END -->
-
-<!-- SERVICES START -->
-
-<!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>

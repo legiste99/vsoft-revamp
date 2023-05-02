@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -74,10 +74,13 @@
 <!-- WELCOME START -->
 <section class="section" id="feature">
     <div class="container">
+        <div class="text-center">
+            <h4 class="title-heading">Graphic Design & Logo Service</h4>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-left">
-                    <h4 class="title-heading">Graphic Design & Logo Service</h4>
+                    <!-- <h4 class="title-heading">Graphic Design & Logo Service</h4> -->
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                         Graphic design is the process of communicating visually using text and images to present information.
@@ -126,100 +129,15 @@
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Search Engine Marketing</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Now you say: "Whether you're a small business or a high profile corporation, 
-                            we can offer cutting-edge and strategic marketing services that will promote your business on the Internet."</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Mobile Application Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Mobile applications can help individuals with quicker information access, 
-                            maximum productivity, and timely responsiveness, there helping him reduce operating cost and risks.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/Graphic_Design&Logo_Service/Graphic_Design&Logo_Service.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <h4>Game Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Game development is one of the most intricate parts of software development.
-                            Unlike ordinary applications, game development requires completely updated resources.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 </section>
+
+
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-
+<x-services_services/>
 <!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>

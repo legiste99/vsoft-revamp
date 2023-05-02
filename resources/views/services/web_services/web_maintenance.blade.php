@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -53,9 +53,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="text-left text-white">
-                            <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
                             <h2 class="home-title mb-4">Website Maintenance</h2>
-                            <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/services/web-services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
                             </div>
@@ -137,53 +135,8 @@
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-
+<x-services_services/>
 <!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>
