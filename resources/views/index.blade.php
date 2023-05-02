@@ -237,8 +237,8 @@
         <div class="row container-grid mt-5 projects-wrapper">
             <div class="img-max-width software">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-1.jpg" title="Project Name">
-                        <img class="item-container profile business" src="images/portfolio/work-1.jpg" alt="1" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software.jpg" title="Project Name">
+                        <img class="item-container profile business" src="images/portfolio/Software.jpg" alt="1" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">software</h5>
@@ -251,8 +251,8 @@
 
             <div class="img-max-width mobile">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-8.jpg" title="Project Name">
-                        <img class="item-container mfp-fade" src="images/portfolio/work-8.jpg" alt="2" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile.jpg" title="Project Name">
+                        <img class="item-container mfp-fade" src="images/portfolio/Mobile.jpg" alt="2" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">mobile</h5>
@@ -265,8 +265,8 @@
 
             <div class="img-max-width website">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-3.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-3.jpg" alt="3" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Website.jpg" alt="3" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light"> website </h5>
@@ -279,8 +279,8 @@
 
             <div class="img-max-width logoDesign">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-2.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-2.jpg" alt="4" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Logo.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Logo.jpg" alt="4" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">logoDesign</h5>
@@ -293,8 +293,8 @@
 
             <div class="img-max-width graphics">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-6.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-6.jpg" alt="5" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Graphic.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Graphic.jpg" alt="5" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">graphics</h5>
@@ -307,8 +307,8 @@
 
             <div class="img-max-width software">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-5.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-5.jpg" alt="6" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software01.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Software01.jpg" alt="6" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">software</h5>
@@ -321,8 +321,8 @@
 
             <div class="img-max-width mobile">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-7.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-7.jpg" alt="7" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile01.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Mobile01.jpg" alt="7" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">mobile</h5>
@@ -335,8 +335,8 @@
 
             <div class="img-max-width website">
                 <div class="item-box">
-                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-4.jpg" title="Project Name">
-                        <img class="item-container" src="images/portfolio/work-4.jpg" alt="8" />
+                    <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website01.jpg" title="Project Name">
+                        <img class="item-container" src="images/portfolio/Website01.jpg" alt="8" />
                         <div class="item-mask">
                             <div class="item-caption">
                                 <h5 class="text-light">website</h5>
@@ -436,19 +436,19 @@
         <div class="row mt-4">
             <div class="col-lg-3">
                 <div class="team-member mt-4 text-center">
-                    <img src="images/team/11.jpg" class="img-fluid" alt="">
+                    <img src="images/team/rusty.jpg" class="img-fluid" alt="">
                     <div>
-                        <h4 class="mt-3">William A. Smith</h4>
-                        <p>CEO</p>
+                        <h4 class="mt-3">Rusty M. Adecel</h4>
+                        <p>Developper</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3">
                 <div class="team-member mt-4 text-center">
-                    <img src="images/team/12.jpg" class="img-fluid" alt="">
+                    <img src="images/team/michael.jpg" class="img-fluid" alt="">
                     <div>
-                        <h4 class="mt-3">Marc R. Gant</h4>
+                        <h4 class="mt-3">Marcelle Gant</h4>
                         <p>Designer</p>
                     </div>
                 </div>
@@ -456,9 +456,9 @@
 
             <div class="col-lg-3">
                 <div class="team-member mt-4 text-center">
-                    <img src="images/team/13.jpg" class="img-fluid" alt="">
+                    <img src="images/team/prince.jpg" class="img-fluid" alt="">
                     <div>
-                        <h4 class="mt-3">Edmund M. Boyd</h4>
+                        <h4 class="mt-3">Aude Boyd</h4>
                         <p>Manager</p>
                     </div>
                 </div>
@@ -466,7 +466,7 @@
 
             <div class="col-lg-3">
                 <div class="team-member mt-4 text-center">
-                    <img src="images/team/14.jpg" class="img-fluid" alt="">
+                    <img src="images/team/joseph.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Carlos A. Kilgore</h4>
                         <p>Founder</p>
@@ -479,7 +479,7 @@
 <!-- TEAM END -->
 
 <!-- START CTA -->
-<section class="section bg-cta">
+<!-- <section class="section bg-cta">
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row justify-content-center">
@@ -493,7 +493,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- END CTA -->
 
 <!-- BLOG START -->
@@ -561,7 +561,8 @@
             <div class="col-lg-7">
                 <div class="contact-head text-center">
                     <h4 class="title-heading text-uppercase">Contact us</h4>
-                    <p class="title-desc text-muted mt-3">Find the perfect business template for any type of business size. Browse be websites created for small businesses, such as online service providers.</p>
+                    <p class="title-desc text-muted mt-3">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
+                                                            We will get back to you as soon as we can.</p>
                 </div>
             </div>
         </div>
@@ -578,7 +579,7 @@
                                 </div>
                                 <div class="ml-5">
                                     <h6 class="text-muted">Email Address</h6>
-                                    <p>Example@abc.com</p>
+                                    <p>info@vsoftsystems.co.za</p>
                                 </div>
                             </div>
 
@@ -588,7 +589,7 @@
                                 </div>
                                 <div class="ml-5">
                                     <h6 class="text-muted">Phone number</h6>
-                                    <p>+1-903-929-5705 , +1-631-705-0194</p>
+                                    <p>(+27)084 249 6846 , (+27)086 579 0155</p>
                                 </div>
                             </div>
 
@@ -598,8 +599,7 @@
                                 </div>
                                 <div class="ml-5">
                                     <h6 class="text-muted">Office Address</h6>
-                                    <p>3961 Melville Street <br/>
-                                        Bruceton, TN 38317</p>
+                                    <p>56 Barrack Street, Cape Town, Western Cape, South Africa, ZA-8001</p>
                                 </div>
                             </div>
                         </div>
