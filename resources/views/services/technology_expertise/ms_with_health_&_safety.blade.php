@@ -55,7 +55,6 @@
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
                             <h2 class="home-title mb-4">Mining Solution with health & safety</h2>
-                            <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/More Services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
                             </div>
