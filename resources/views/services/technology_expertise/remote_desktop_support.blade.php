@@ -100,7 +100,7 @@
             <div class="col-lg-6">
                 <div class="text-center">
                     <div class="mb-4">
-                        <img src="{{asset('images\about\TechnologyEnt/remoteDesktop.jpg')}}" class="img-fluid rounded" alt="">
+                        <img src="{{asset('/images/services/technology_enterprise_images/remoteDesktop.jpg')}}" class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
     </div>
     <div class="col-md-6">
     <div class="mb-4">
-  <img src="/images/about/sdPrograming1.jpg" class="img-fluid rounded" alt="">
+  <img src="/images/services/technology_enterprise_images/sdPrograming1.jpg" class="img-fluid rounded" alt="">
 </div>
 </div>
 
