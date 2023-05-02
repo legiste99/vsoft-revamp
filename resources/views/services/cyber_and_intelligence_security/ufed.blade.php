@@ -1,75 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vsoft Systems</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="vsoftsystems" />
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Magnificpopup Css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!--Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css"/>
-    <link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.transitions.css"/>
-
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+    <x-head/>
 </head>
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
@@ -82,10 +19,10 @@
                     <div class="col-lg-9">
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Website Design</h2>
+                            <h2 class="home-title mb-4">UFED Cloud Analyzer Analyzer</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/web_services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+                                <a href="#feature" class="btn btn-custom"><i class="mdi mdi-arrow-down ml-2">Web Services</i></a>
                             </div>
                         </div>
                     </div>
@@ -103,120 +40,56 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-lg-10">
                 <div class="text-center">
-                    <h4 class="title-heading">Website Design Service</h4>
+                    <h4 class="title-heading">UFED Cloud Analyzer</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !!
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you.
-                    For free website review and consultation please contact us.
-                  </p>
+                        As people increasingly rely on social media and other cloud-based services to connect with others, store information and share their lives, digital evidence that can be critical to solving a case often exists beyond physical devices. Accessing data from public or private user profiles hosted in cloud-based applications and services needs to be fast and forensically sound to keep investigations moving forward.
+
+                        Cloud-based sources represent virtual goldmines of potential evidence for investigations.
+
+                        Extract, preserve and analyze social media data, instant messaging, file storage and other cloud-based content from public and legally pre-approved private sources with UFED Cloud Analyzer.
+                    </p>
                 </div>
             </div>
         </div>
-
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 </section>
-<!-- WELCOME END -->
 
-<!-- SERVICES START -->
-
-<!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
+<div class="container mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="text-left">
+                <h6>Key Benefits</h6>
+                <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
+                <ul>
+                    <li>Acquire crucial details with a forensically sound process.</li>
+                    <li>Fulfill requests for cloud-based private data Gather private user data in accordance with due process from over 40 of the most popular social media and cloud-based sources, including Facebook, Twitter, Gmail, Google Drive, Dropbox, Instagram, Vkontakte, What’s App, iCloud and more. Use login credentials provided by the subject, extracted from digital devices, retrieved from personal files or via other discovery means to gain access to time-sensitive evidence.</li>
+                    <li>Capture public domain data for easy review.</li>
+                    <li>Easily access, view and incorporate publicly available data into your investigations, such as location information, profiles, images, files and social communications from popular apps, including Facebook, Twitter and Instagram.</li>
+                </ul>
             </div>
         </div>
     </div>
-</section> -->
-<!-- END CTA -->
+</div>
 
-<!-- BLOG START -->
+<div class="container mb-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="text-left">
+                <h6>Forensically preserve data</h6>
+                <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
+                <ul>
+                    <li>ALog and trace the entire extraction process to maintain data authenticity. Each piece of extracted data is hashed separately and can be later compared against its origin to ensure forensic soundness and produce admissible evidence.</li>
+                    <li>Enhance and share insights to accelerate investigations.</li>
+                    <li>Track online behavior Gain insights into the subject’s intentions, interests and relationships by analyzing posts, likes, events and connections. View text searches conducted with Chrome and Safari on iOS devices backed-up on iCloud. Extract extensive details from Google web history including private location information from a suspect or victim, so investigators can track time-stamped movements minute by minute.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>

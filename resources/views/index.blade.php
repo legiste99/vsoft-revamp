@@ -11,7 +11,7 @@
 
 <!-- HOME START-->
 <section class="bg-home-half" id="home">
-    <div class="bg-overlay"></div>
+    <div class="bg-overla"></div>
     <div class="home-center">
         <div class="home-desc-center">
             <div class="container">
@@ -53,7 +53,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                            <img src="images/about/Mission.jpeg" class="img-fluid rounded" alt="">
                         </div>
 
                         <h4>Mission</h4>
@@ -66,7 +66,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                            <img src="images/about/Value.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Vision</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
@@ -78,7 +78,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
+                            <img src="images/about/Vision.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Values</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
@@ -118,7 +118,7 @@
                 </a>
             </div>
             <div class="col-lg-6">
-                <a href="/services">
+                <a href="/services/enterprise-solutions">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="smartphone"></i>
@@ -219,10 +219,11 @@
                 <div class="text-center">
                     <ul class="col container-filter categories-filter list-unstyled mb-0" id="filter">
                         <li><a class="categories active" data-filter="*">All</a></li>
-                        <li><a class="categories" data-filter=".profile">Profile</a></li>
-                        <li><a class="categories" data-filter=".business">Business</a></li>
-                        <li><a class="categories" data-filter=".finance">Finance</a></li>
-                        <li><a class="categories" data-filter=".marketing">Marketing</a></li>
+                        <li><a class="categories" data-filter=".software">Software</a></li>
+                        <li><a class="categories" data-filter=".mobile">Mobile</a></li>
+                        <li><a class="categories" data-filter=".website">Website</a></li>
+                        <li><a class="categories" data-filter=".logoDesign">Logo Design</a></li>
+                        <li><a class="categories" data-filter=".graphics">Graphics</a></li>
                     </ul>
                 </div>
             </div>
@@ -234,13 +235,13 @@
     <!-- Gallary -->
     <div class="container-fluid">
         <div class="row container-grid mt-5 projects-wrapper">
-            <div class="img-max-width">
+            <div class="img-max-width software">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-1.jpg" title="Project Name">
                         <img class="item-container profile business" src="images/portfolio/work-1.jpg" alt="1" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Centerd Gallary</h5>
+                                <h5 class="text-light">software</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -248,13 +249,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width business finance">
+            <div class="img-max-width mobile">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-8.jpg" title="Project Name">
                         <img class="item-container mfp-fade" src="images/portfolio/work-8.jpg" alt="2" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Sidebar Stack</h5>
+                                <h5 class="text-light">mobile</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -262,13 +263,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width profile business">
+            <div class="img-max-width website">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-3.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-3.jpg" alt="3" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Grid – Overlay </h5>
+                                <h5 class="text-light"> website </h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -276,13 +277,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width marketing">
+            <div class="img-max-width logoDesign">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-2.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-2.jpg" alt="4" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Distinctive</h5>
+                                <h5 class="text-light">logoDesign</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -290,13 +291,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width finance marketing">
+            <div class="img-max-width graphics">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-6.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-6.jpg" alt="5" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Sustainable</h5>
+                                <h5 class="text-light">graphics</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -304,13 +305,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width profile marketing">
+            <div class="img-max-width software">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-5.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-5.jpg" alt="6" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Popup Hover</h5>
+                                <h5 class="text-light">software</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -318,13 +319,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width business">
+            <div class="img-max-width mobile">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-7.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-7.jpg" alt="7" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Vendor</h5>
+                                <h5 class="text-light">mobile</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>
@@ -332,13 +333,13 @@
                 </div>
             </div>
 
-            <div class="img-max-width marketing">
+            <div class="img-max-width website">
                 <div class="item-box">
                     <a class="cbox-gallary1 mfp-image" href="images/portfolio/work-4.jpg" title="Project Name">
                         <img class="item-container" src="images/portfolio/work-4.jpg" alt="8" />
                         <div class="item-mask">
                             <div class="item-caption">
-                                <h5 class="text-light">Slider Cover</h5>
+                                <h5 class="text-light">website</h5>
                                 <p class="text-light">client: Kay Garland</p>
                             </div>
                         </div>

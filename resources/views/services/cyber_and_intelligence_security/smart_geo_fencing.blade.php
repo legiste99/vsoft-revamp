@@ -1,75 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vsoft Systems</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="vsoftsystems" />
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Magnificpopup Css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-
-    <!--Material Icon -->
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-
-    <!--Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.css"/>
-    <link rel="stylesheet" href="css/owl.theme.css"/>
-    <link rel="stylesheet" href="css/owl.transitions.css"/>
-
-    <!-- Custom  Css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+    <x-head/>
 </head>
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
@@ -103,30 +40,21 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
+            <div class="col-lg-10">
                 <div class="text-center">
-                    <h4 class="title-heading">Website Design Service</h4>
+                    <h4 class="title-heading">Smart Geo-fencing Based on Geo-distribution of Mobile User Activity</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
-                    <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
-                  </p>
+                    <p >
+                        Smart geo-fencing is a location-based marketing technique that uses a mobile device's GPS or location services to trigger targeted advertising messages when a user enters a defined geographic area. It can be a powerful tool for businesses to reach potential customers at the right time and place.
+                    </p>
+                    <p >
+                        One way to enhance the effectiveness of smart geo-fencing is to analyze the geo-distribution of mobile user activity in a particular area. By understanding where users are spending their time and what locations they frequently visit, businesses can create more targeted and relevant marketing messages.
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-4">
+        {{--<div class="row mt-4">
             <div class="col-lg-4">
                 <div class="features mt-4">
                     <div class="text-center">
@@ -162,61 +90,42 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
 
 
     </div>
 </section>
-<!-- WELCOME END -->
 
-<!-- SERVICES START -->
-
-<!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
+    <div class="container mb-5">
         <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
+            <div class="col-lg-10">
+                <div class="text-left">
+                    <h6 >How it works</h6>
+                    <p >
+                        Geo-location is identifying the real-world geographical location of an object through either GPS tracking or inbuilt data transmitting ability of smart devices.
+                    </p>
+                </div>
+
+                <div class="text-left">
+                    <h6 >Managing an Effective Geo-targeting Advertising Campaign</h6>
+                   <p> <ul>
+
+                        <li>
+                            Online advertising has become ever more sophisticated over the last decade, allowing marketing campaigns to target specific groups of customers through innovations such as contextual targeting and site specific advertising.
+                        </li>
+                        <br>
+                        <li>
+                            Many businesses use geo fencing to simply send special offers to customers when they walk or drive near a business’s location. But there’s plenty of opportunity for creativity beyond that. For example, real estate agencies can send push notifications to possible buyers when they come near open houses, and bands can send messages to fans when they walk by a concert venue the band will be performing at soon.
+                        </li>
+                        <br>
+                        <li>
+                            But there’s no real limit on location. Coffee shops could trigger geofenced push notifications when users are downtown and in need of some pre-work caffeine. A wedding planner could set up a geofenced push notification around bridal stores and bakeries, offering helpful shopping tips or highlighting the best deals for users. Retail stores could alert users to deals when they’re nearby the local mall.
+                        </li>
+                    </ul></p>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <section class="footer bg-dark">
@@ -279,27 +188,7 @@
 <!-- FOOTER END -->
 
 <!-- JAVASCRIPTS -->
-<script src="js/jquery.min.js"></script>
-<!-- SCROLL -->
-<script src="js/scrollspy.min.js"></script>
-<!-- SCROLL -->
-<script src="js/feather.min.js"></script>
-<!--  -->
-<!-- bootstrap -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- easing -->
-<script src="js/jquery.easing.min.js"></script>
-<!-- Portfolio -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/isotope.js"></script>
-<!-- scroll -->
-<script src="js/scrollspy.min.js"></script>
-<!-- Counter -->
-<script src="js/jquery.counterup.min.js"></script>
-<!-- Owl Carousel -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- Custom -->
-<script src="js/app.js"></script>
+<x-javascript/>
 
 </body>
 </html>

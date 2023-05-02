@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -74,10 +74,13 @@
 <!-- WELCOME START -->
 <section class="section" id="feature">
     <div class="container">
+        <div class="text-center">
+            <h4 class="title-heading">(PPC) Pay-per-click service</h4>
+        </div>
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-left">
-                    <h4 class="title-heading">(PPC) Pay-per-click services</h4>
+                    <!-- <h4 class="title-heading">(PPC) Pay-per-click services</h4> -->
                     <p>
                         Paid Search Advertising (also called Pay-Per-Click Search engine marketing) 
                         is the fastest and easiest way to drive instant traffic to your web site in 
@@ -105,7 +108,6 @@
                 <div class="text-left">
                     <div class="mb-4">
                         <p>
-                            <br>
                             <br>
                             <h6>Advantages to PPC:</h6>
                             <br>
@@ -136,138 +138,13 @@
             </div>
         </div>
 
-<!-- SERVICES START -->
-<section class="section bg-light" id="service">
-    <div class="container">
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <a href="/services/web-services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="monitor"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4>Search Engine Marketing</h4>
-                            <p class="text-muted mb-0">
-                                Now you say: "Whether you're a small business or a high profile corporation, 
-                                we can offer cutting-edge and strategic marketing services that will promote 
-                                your business on the Internet."
-                            </p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a href="/services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="smartphone"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4 class="mb-2">Mobile Application Development</h4>
-                            <p class="text-muted mb-0">
-                                Mobile applications can help individuals with quicker information access, 
-                                maximum productivity, and timely responsiveness, there helping him reduce 
-                                operating cost and risks.
-                            </p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a href="/services">
-                    <div class="services-blog mt-4">
-                        <div>
-                            <i data-feather="smartphone"></i>
-                        </div>
-                        <div class="service-head">
-                            <h4 class="mb-2">Game Development</h4>
-                            <p class="text-muted mb-0">Game development is one of the most intricate parts 
-                                of software development. Unlike ordinary applications, game development 
-                                requires completely updated resources.</p>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-12">
-                                <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- SERVICES END -->
-
-
     </div>
 </section>
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-
+<x-services_services/>
 <!-- SERVICES END -->
-
-<!-- PORTFOLIO START-->
-
-
-        <!-- portfolio menu -->
-
-        <!-- End portfolio  -->
-
-    <!-- Gallary -->
-
-<!-- PORTFOLIO END-->
-
-<!-- CLIENT START -->
-
-<!-- CLIENT END -->
-
-<!-- TEAM START -->
-
-<!-- TEAM END -->
-
-<!-- START CTA -->
-<!-- <section class="section bg-cta">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h3 class="text-white text-center">Ready to start your next
-                    web project now?</h3>
-                <p class="cta-desc text-white text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-custom-white">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- END CTA -->
-
-<!-- BLOG START -->
-
-<!-- BLOG END -->
-
-<!-- CONTACT START -->
-
-<!-- CONTACT END -->
 
 <!-- FOOTER START -->
 <x-footer/>
