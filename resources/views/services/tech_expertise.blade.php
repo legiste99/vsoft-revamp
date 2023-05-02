@@ -104,7 +104,7 @@
                 <a href="/services/tech-expertise/rfid-solutions">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="/images/about/TechnologyEnt/rfid.jpg" class="img-fluid rounded" alt="">
+                            <img src="/images/services/technology_enterprise_images/rfid.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>RFID Solutions</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
@@ -118,7 +118,7 @@
                 <a href="/services/tech-expertise/cloud-computing">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="/images/about/TechnologyEnt/cloud.jpg" class="img-fluid rounded" alt="">
+                            <img src="/images/services/technology_enterprise_images/cloud.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Cloud Computing</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
@@ -134,7 +134,7 @@
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
-                            <img src="/images/about/TechnologyEnt/remotedsktop.jpg" class="img-fluid rounded" alt="">
+                            <img src="/images/services/technology_enterprise_images/remotedsktop.jpg" class="img-fluid rounded" alt="">
                         </div>
 
                         <h4>Remote Desktop Support</h4>

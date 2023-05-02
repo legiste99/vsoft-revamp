@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <img src="/images/about/TechnologyEnt/cloud1.png" class="img-fluid rounded" alt="">
+        <img src="/images/services/technology_enterprise_images/cloud1.png" class="img-fluid rounded" alt="">
         
                  
 

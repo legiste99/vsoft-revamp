@@ -92,7 +92,7 @@ The predictive nature of the algorithms flag imminent failures.
   <div class="col"></div>
   <div class="col">
   <div class="mb-4">
-  <img src="/images/about/TechnologyEnt/MobileApp.png" class="img-fluid rounded" alt="">
+  <img src="/images/services/technology_enterprise_images/MobileApp.png" class="img-fluid rounded" alt="">
 </div>
   </div>
   <div class="col"><p>
@@ -112,11 +112,11 @@ The predictive nature of the algorithms flag imminent failures.
   This enables real-time performance feedback at the end of a customized period � at an operator and crew level.
   </p></div>
   <div class="col">
-    <img src="/images/about/TechnologyEnt/truck.png" class="img-fluid rounded" alt="">
+    <img src="/images/services/technology_enterprise_images/truck.png" class="img-fluid rounded" alt="">
 </div>
   <div class="w-100"></div>
   <div class="col">
-  <img src="/images/about/TechnologyEnt/Pix.png" class="img-fluid rounded" alt="">
+  <img src="/images/services/technology_enterprise_images/Pix.png" class="img-fluid rounded" alt="">
   </div>
   <div class="col">
   <p>
