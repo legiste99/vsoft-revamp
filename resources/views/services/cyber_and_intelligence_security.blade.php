@@ -110,6 +110,7 @@
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/smart-city-solutions">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -119,9 +120,11 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Smart City Solutions" leverage cutting-edge technologies to create safe, efficient and sustainable urban environments, enhancing city services and infrastructure while also addressing critical security challenges.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
+                <a href="/services/cyber-security/analytical-analysis">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -131,11 +134,13 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Analytical analysis and evaluations of systems and hardware" service provides thorough testing and analysis of software and hardware systems to identify vulnerabilities, assess risk, and ensure optimal performance and security.</p>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-4">
+                <a href="/services/cyber-security/biometric-solution">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -146,6 +151,7 @@
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">Our "Biometric Solution" service provides cutting-edge biometric technologies to enable secure and efficient access control, identity verification, and fraud prevention, offering advanced security measures that enhance operational efficiency and customer experience.</p>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-lg-4">
