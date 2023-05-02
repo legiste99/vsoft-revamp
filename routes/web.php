@@ -93,8 +93,8 @@ Route::get('/services/cyber-security/analytical-analysis', function (){
     return view('services.cyber_and_intelligence_security.analytical_analysis');
 });
 
-Route::get('/services/cyber-security/biometric-solutions', function (){
-    return view('services.cyber_and_intelligence_security.biometric_solutions');
+Route::get('/services/cyber-security/biometric-solution', function (){
+    return view('services.cyber_and_intelligence_security.biometric_solution');
 });
 
 Route::get('/services/cyber-security/digital-forensics', function (){
