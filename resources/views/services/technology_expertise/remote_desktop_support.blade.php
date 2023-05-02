@@ -15,28 +15,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="/#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
+                    <a class="nav-link" href="/#service">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="/#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#client">Clients</a>
+                    <a class="nav-link" href="/#client">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="/#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#articles">Articles</a>
+                    <a class="nav-link" href="/#articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#price">Store</a>
+                    <a class="nav-link" href="/#price">Store</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="/#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -57,7 +57,7 @@
                             <h2 class="home-title mb-4">Remote Desktop Support</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/web_services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+                                <a href="/services/web-services" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
                             </div>
                         </div>
                     </div>
@@ -75,62 +75,89 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="text-center">
-                    <h4 class="title-heading">Remote Desktop</h4>
+            <div class="col-lg-6">
+                <div class="text-left">
+                    <h4 class="title-heading">Remote Desktop Support</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                     Strategic IT starts with ManagedShield
+                    <br>
+                    <br>
                     A critical element of using IT strategically is making sure it’s running smoothly. 
-                    Proactively managing your IT is step one of a strategic IT plan,
+                    Proactively managing your IT is step one of a strategic IT plan, 
                     helping your business avoid unexpected downtime and ensuring that your systems are always up to date.
-                    Vsoft’s range of flexible, user-friendly service packages ensure the reliability and effectiveness of your technology infrastructure.
+                    <br>
+                    <br>
+                    Vsoft’s range of flexible, user-friendly service packages ensure the reliability and effectiveness of your technology infrastructure. 
+                    <br>
+                    <br>
+                    No two organizations are the same, so Vsoft recommends only the service options that address your unique needs. 
+                    Our IT Partnership Agreement is designed to deliver the benefits of a fully staffed IT department at a fraction of the cost. Working together, 
+                    we first determine your company’s business and IT goals, and then an IT services package is tailored specifically for you.
                   </p>
                 </div>
             </div>
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="{{asset('images\about\TechnologyEnt/remoteDesktop.jpg')}}" class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
+            <div class="col-lg-12">
+                <div class="text-left">
+                    <div class="mb-4">
+                    <p>
+                    Vsoft Managed Shield IT Partnership Agreements are affordable,
+                     flat fee-based managed services solutions that enable organizations to maximize the performance of their IT infrastructure. 
+                     With 24/7 monitoring, automated performance tuning and maintenance, IT help desk, 
+                     and remote computer support, ManagedShield keeps your focus where it should be – on your business.
+                        <br>
+                        
+                       
+                  </p>
                     </div>
                 </div>
             </div>
+            <div class="row gx-4 justify-content-centre">
+    <div class="col-md-6">
+        <h6 style="text-align: justify;"> <span style="color: blue;">EXPERT SERVICES</span></h6>
+    <h5 class="header1">With Managed IT Services from Vsoft, you can expect:</h5>
 
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="images/about/3.jpg" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
+     <ul>
+  <li>Peace of mind - we monitor your systems 24/7</li>
+  <li>Less downtime - issues are identified before they cause problems</li>
+  <li>Fewer disruptions - most services are delivered remotely or overnight</li>
+  <li>Predictable budgeting - flat monthly fee can include it all</li>
+  </ul>
+          
+        <p>Vsoft also offers Total Technology Management (TTM) to ensure all systems function seamlessly. 
+            TTM manages all of your organization’s technology providers, including bandwidth, print services and phone system vendors.</p>
+     <h6><span style="color: blue;">Vsoft Managed Shield support plans include:</span></h6>
+     <ul>
+  <li>24/7 Remote Monitoring of Critical Systems</li>
+  <li>Remote Management and Administration</li>
+  <li>Vendor Management</li>
+  <li>Hardware Monitoring</li>
+  <li>Antivirus Monitoring and Malware Removal</li>
+  <li>Patches and Updates</li>
+  <li>Spam Filtering</li>
+  <li>Managed Firewall with Security Services</li>
+  <li>Backup, Business Continuity and Disaster Recovery Services</li>
+  <li>Hosted Exchange Server</li>
+  <li>Cloud Services</li>
+ 
+</ul>
 
-
-    </div>
    
+    </div>
+    <div class="col-md-6">
+    <div class="mb-4">
+  <img src="/images/about/sdPrograming1.jpg" class="img-fluid rounded" alt="">
+</div>
+</div>
+
 
 </section>
 <!-- WELCOME END -->

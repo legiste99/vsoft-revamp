@@ -92,18 +92,20 @@
             the projects demand close liaison between the client and software development company and this is where we excel.<br><p></p>
             Our software development focus is on the delivery of custom line-of-business systems,
             data-driven applications, enterprise software solutions, system integration as well as internet and mobile applications. Our solutions are based on established software design methodologies and current software architecture principles.</br></p>
-     <h6><span style="color: blue;">Our services sollution includes :</span></h6>
+     <h6><span style="color: blue;">Our services solution includes :</span></h6>
      <ul>
-  <li>This is the first item in the list.</li>
-  <li>This is the second item in the list.</li>
-  <li>This is the third item in the list.</li>
-  <li>This is the first item in the list.</li>
-  <li>This is the second item in the list.</li>
-  <li>This is the third item in the list.</li>
+  <li>Client-facing web solutions and portals</li>
+  <li>Document management and content management systems</li>
+  <li>Line-of-business system development</li>
+  <li>System integration and partner integration</li>
+  <li>Database development</li>
+  <li>Business Intelligence and Master Data Management</li>
+  <li>Mobile app solutions</li>
+  <li>Line-of-business system development</li>
+  <li>System integration and partner integration</li>
+  <li>Database development</li>
+  <li>Business Intelligence and Master Data Management</li>
 </ul>
-    </div>
-
-    
 
     <div class="col-md-6">
     <div class="mb-4">
