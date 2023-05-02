@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
+<section class="bg-home-half-two" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
