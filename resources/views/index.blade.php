@@ -11,7 +11,7 @@
 
 <!-- HOME START-->
 <section class="bg-home-half" id="home">
-    <div class="bg-overlay"></div>
+    <div class="bg-overla"></div>
     <div class="home-center">
         <div class="home-desc-center">
             <div class="container">
