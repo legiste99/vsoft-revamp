@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Testimonial extends Model
+class NewsArticles extends Model
 {
-    protected $table = 'sytestimonials';
+    protected $table = 'webtext';
     public const CREATED_AT = 'CreDate';
     public const UPDATED_AT = 'ModDate';
-    protected $primaryKey = 'TestimonNo';
+    protected $primaryKey = 'TextNo';
 }

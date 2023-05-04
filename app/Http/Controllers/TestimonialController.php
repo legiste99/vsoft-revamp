@@ -10,7 +10,7 @@ class TestimonialController extends Controller
 {
     public function getTestimonials(){
 
-        $testimonials = Testimonial::all();
+        $testimonials = Testimonial::orderBy('CreDate', 'desc')->take(3)->get();
 
         return \view('index', compact('testimonials'));
 

@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\TestimonialController::class, 'getTestimonials']);
+Route::get('/', [\App\Http\Controllers\IndexController::class, 'getData']);
 
 Route::get('/services', function (){
     return view('services.services');
