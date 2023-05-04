@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [\App\Http\Controllers\TestimonialController::class, 'getTestimonials']);
 
 Route::get('/services', function (){
     return view('services.services');
