@@ -367,22 +367,24 @@
             <div class="col-lg-8">
                 <div id="owl-demo" class="owl-carousel">
 
+                    @foreach($testimonials as $testimonial)
                     <div class="testi-box">
-                        <div class="text-center mt-4">
+                        <div class="text-center +mt-4">
                             <div class="testi-content">
-                                <p class="user-review text-center mb-0">" Their separate existence is a myth. For science music sport etc Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language "</p>
+                                <p class="user-review text-center mb-0">"{{$testimonial->Descr}}"</p>
                             </div>
                             <div class="mt-4">
                                 <img src="images/client/11.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
                             </div>
                             <div class="img-post text-center">
                                 <p class="testi-patients text-muted mb-1 mt-3">Founder</p>
-                                <h5 class="testi-client-name">Willimore Wilson</h5>
+                                <h5 class="testi-client-name">{{$testimonial->Name}}</h5>
                             </div>
                         </div>
                     </div>
+                    @endforeach
 
-                    <div class="testi-box">
+                    {{--<div class="testi-box">
                         <div class="text-center mt-4">
                             <div class="testi-content">
                                 <p class="user-review text-center mb-0">" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English."</p>
@@ -410,7 +412,7 @@
                                 <h5 class="testi-client-name">Norden Sophie</h5>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
 
                 </div>
             </div>
@@ -509,19 +511,23 @@
         </div>
 
         <div class="row mt-4">
+
+            @foreach($articles as $article)
             <div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/1.jpg" class="img-fluid" alt="">
                     <div>
-                        <h4><a href="" class="blog-title">Want to know how Deep Learning works?</a></h4>
-                        <p class="mt-2 text-muted">fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        <h4><a href="" class="blog-title">{{$article->Hdr}}</a></h4>
+                        <p class="mt-2 text-muted">{{$article->IntroText}}</p>
                         <div class="mt-3">
                             <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            @endforeach
+
+            {{--<div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/2.jpg" class="img-fluid" alt="">
                     <div>
@@ -533,6 +539,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/3.jpg" class="img-fluid" alt="">
@@ -544,7 +551,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--}}
 
         </div>
         <div class="text-left pt-4 navbar-nav" style="width: 250px">
