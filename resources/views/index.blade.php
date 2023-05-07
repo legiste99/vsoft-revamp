@@ -43,7 +43,7 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Starting with Vsoft Systems is easier than anything!</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
                 </div>
             </div>
         </div>
@@ -92,13 +92,13 @@
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-<section class="section bg-light" id="service">
+<section class="section bg-primary" id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading text-uppercase">Our Services</h4>
-                    <p class="title-desc text-muted mt-3">Script about our services goes here</p>
+                    <h4 class="text-white title-heading text-uppercase">Our Services</h4>
+                    <p style="color:orange">Script about our services goes here</p>
                 </div>
             </div>
         </div>
@@ -208,7 +208,7 @@
             <div class="col-lg-6">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">Our Portfolio</h4>
-                    <p class="title-desc text-muted mt-3">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
+                    <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
                 </div>
             </div>
         </div>
@@ -358,7 +358,7 @@
             <div class="col-lg-7">
                 <div class=" text-center">
                     <h4 class="title-heading text-uppercase">Testimonial</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
                 </div>
             </div>
         </div>
@@ -426,7 +426,7 @@
             <div class="col-lg-6">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">OUR AMAZING TEAM</h4>
-                    <p class="title-desc text-muted">Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
+                    <p style="color:orange">Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
 
                     </p>
                 </div>
@@ -439,7 +439,7 @@
                     <img src="images/team/rusty.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Rusty M. Adecel</h4>
-                        <p>Developper</p>
+                        <p style="color:orange">Developper</p>
                     </div>
                 </div>
             </div>
@@ -449,7 +449,7 @@
                     <img src="images/team/michael.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Marcelle Gant</h4>
-                        <p>Designer</p>
+                        <p style="color:orange">Designer</p>
                     </div>
                 </div>
             </div>
@@ -459,7 +459,7 @@
                     <img src="images/team/prince.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Aude Boyd</h4>
-                        <p>Manager</p>
+                        <p style="color:orange">Manager</p>
                     </div>
                 </div>
             </div>
@@ -469,7 +469,7 @@
                     <img src="images/team/joseph.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Carlos A. Kilgore</h4>
-                        <p>Founder</p>
+                        <p style="color:orange">Founder</p>
                     </div>
                 </div>
             </div>
@@ -503,7 +503,7 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">Latest News</h4>
-                    <p class="title-desc text-muted mt-3">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results.</p>
+                    <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results.</p>
                 </div>
             </div>
         </div>
@@ -561,7 +561,7 @@
             <div class="col-lg-7">
                 <div class="contact-head text-center">
                     <h4 class="title-heading text-uppercase">Contact us</h4>
-                    <p class="title-desc text-muted mt-3">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
+                    <p style="color:orange">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
                                                             We will get back to you as soon as we can.</p>
                 </div>
             </div>
