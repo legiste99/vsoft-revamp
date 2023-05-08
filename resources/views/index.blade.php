@@ -511,46 +511,52 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="blog-menu mt-4">
-                    <img src="images/blog/1.jpg" class="img-fluid" alt="">
-                    <div>
-                        <h4><a href="" class="blog-title">Want to know how Deep Learning works?</a></h4>
-                        <p class="mt-2 text-muted">fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
-                        <div class="mt-3">
-                            <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+            <a href="/articles/news">
+                <div class="col-lg-4">
+                    <div class="blog-menu mt-4">
+                        <img src="images/blog/1.jpg" class="img-fluid" alt="">
+                        <div>
+                            <h4><a href="" class="blog-title">Want to know how Deep Learning works?</a></h4>
+                            <p class="mt-2 text-muted">fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                            <div class="mt-3">
+                                <a href="/articles/news" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-menu mt-4">
-                    <img src="images/blog/2.jpg" class="img-fluid" alt="">
-                    <div>
-                        <h4><a href="" class="blog-title">How to become a skilled Developer</a></h4>
-                        <p class="mt-2 text-muted">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
-                        <div class="mt-3">
-                            <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+            </a>
+            <a href="/articles/news">
+                <div class="col-lg-4">
+                    <div class="blog-menu mt-4">
+                        <img src="images/blog/2.jpg" class="img-fluid" alt="">
+                        <div>
+                            <h4><a href="" class="blog-title">How to become a skilled Developer</a></h4>
+                            <p class="mt-2 text-muted">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <div class="mt-3">
+                                <a href="/articles/news" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="blog-menu mt-4">
-                    <img src="images/blog/3.jpg" class="img-fluid" alt="">
-                    <div>
-                        <h4><a href="" class="blog-title">The best front hacking cheatsheets</a></h4>
-                        <p class="mt-2 text-muted">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus.</p>
-                        <div class="mt-3">
-                            <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+            </a>
+            <a href="/articles/news">
+                <div class="col-lg-4">
+                    <div class="blog-menu mt-4">
+                        <img src="images/blog/3.jpg" class="img-fluid" alt="">
+                        <div>
+                            <h4><a href="" class="blog-title">The best front hacking cheatsheets</a></h4>
+                            <p class="mt-2 text-muted">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus.</p>
+                            <div class="mt-3">
+                                <a href="/articles/news" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
         </div>
         <div class="text-left pt-4 navbar-nav" style="width: 250px">
-            <a href="#feature" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
+            <a href="/articles/allNews" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
         </div>
     </div>
 </section>

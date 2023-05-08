@@ -173,3 +173,11 @@ Route::get('/services/tech-expertise/remote-desktop-support', function (){
 Route::get('/services/tech-expertise/rfid-solutions', function (){
     return view('services.technology_expertise.rfid_solutions');
 });
+
+  // Articles
+ Route::get('/articles/allNews', function (){
+    return view('articles.allNews');
+ });
+ Route::get('/articles/news', function (){
+    return view('articles.news');
+ });
