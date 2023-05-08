@@ -373,11 +373,11 @@
                             <div class="testi-content">
                                 <p class="user-review text-center mb-0">"{{$testimonial->Descr}}"</p>
                             </div>
-                            <div class="mt-4">
+                            {{-- <div class="mt-4">
                                 <img src="images/client/11.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
-                            </div>
+                            </div> --}}
                             <div class="img-post text-center">
-                                <p class="testi-patients text-muted mb-1 mt-3">Founder</p>
+                                <p class="testi-patients text-muted mb-1 mt-3">Client</p>
                                 <h5 class="testi-client-name">{{$testimonial->Name}}</h5>
                             </div>
                         </div>
@@ -511,23 +511,19 @@
         </div>
 
         <div class="row mt-4">
-
-            @foreach($articles as $article)
             <div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/1.jpg" class="img-fluid" alt="">
                     <div>
-                        <h4><a href="" class="blog-title">{{$article->Hdr}}</a></h4>
-                        <p class="mt-2 text-muted">{{$article->IntroText}}</p>
+                        <h4><a href="" class="blog-title">Want to know how Deep Learning works?</a></h4>
+                        <p class="mt-2 text-muted">fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
                         <div class="mt-3">
                             <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            @endforeach
-
-            {{--<div class="col-lg-4">
+            <div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/2.jpg" class="img-fluid" alt="">
                     <div>
@@ -539,7 +535,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4">
                 <div class="blog-menu mt-4">
                     <img src="images/blog/3.jpg" class="img-fluid" alt="">
@@ -551,7 +546,7 @@
                         </div>
                     </div>
                 </div>
-            </div>--}}
+            </div>
 
         </div>
         <div class="text-left pt-4 navbar-nav" style="width: 250px">
