@@ -531,7 +531,6 @@
 
             @endforeach
 
-
         </div>
         <div class="text-left pt-4 navbar-nav" style="width: 250px">
             <a href="/articles" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>

@@ -77,6 +77,7 @@
         <div class="text-center">
             <h4 class="title-heading">ALL ARTICLES</h4>
         </div>
+{{--
 
         @if(!empty($allArticles) && $allArticles->count())
             @foreach($allArticles as $article)
@@ -112,8 +113,41 @@
         <div>
             {!! $allArticles->links() !!}
         </div>
+--}}
 
 
+        <div class="row mt-4">
+
+            @if(!empty($allArticles) && $allArticles->count())
+                @foreach($allArticles as $article)
+
+                <a href="/articles/news/{{$article->TextNo}}">
+                    <div class="col-lg-4 mt-5">
+                        <div class="blog-menu mt-4">
+                            <img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid" alt="">
+                            <div>
+                                <h4><a href="/articles/news/{{$article->TextNo}}" class="blog-title">{{$article->Hdr}}</a></h4>
+                                <p class="mt-2 text-muted">{{$article->IntroText}}</p>
+                                <div class="mt-3">
+                                    <a href="/articles/news/{{$article->TextNo}}" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                @endforeach
+            @else
+                <div>
+                    <p>There are no data.</p>
+                </div>
+            @endif
+
+            <div class="mt-4">
+                {!! $allArticles->links() !!}
+            </div>
+
+        </div>
 
     </div>
 </section>
