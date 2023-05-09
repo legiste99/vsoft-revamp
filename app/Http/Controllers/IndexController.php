@@ -18,5 +18,13 @@ class IndexController extends Controller
 
     }
 
+    public function getAllArticles(){
+
+        $allArticles = NewsArticles::paginate(10);
+
+        return \view('articles.all_news', compact('allArticles'));
+
+    }
+
 
 }
