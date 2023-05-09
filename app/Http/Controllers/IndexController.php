@@ -18,5 +18,23 @@ class IndexController extends Controller
 
     }
 
+    public function getAllArticles(){
+
+        $allArticles = NewsArticles::orderBy('PublishDate', 'desc')->paginate(9);
+
+        return \view('articles.all_news', compact('allArticles'));
+
+    }
+
+    public function readArticle($id){
+
+        $article = NewsArticles::where('TextNo', $id)->get();
+        /*$article = $articles->where('TextNo', '=', $id);*/
+
+
+        return \view('articles.news', compact('article'));
+
+    }
+
 
 }

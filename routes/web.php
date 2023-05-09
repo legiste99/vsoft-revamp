@@ -173,3 +173,7 @@ Route::get('/services/tech-expertise/remote-desktop-support', function (){
 Route::get('/services/tech-expertise/rfid-solutions', function (){
     return view('services.technology_expertise.rfid_solutions');
 });
+
+  // Articles
+ Route::get('/articles', [\App\Http\Controllers\IndexController::class, 'getAllArticles']);
+ Route::get('/articles/news/{id}', [\App\Http\Controllers\IndexController::class, 'readArticle']);
