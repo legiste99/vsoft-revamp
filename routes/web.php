@@ -177,3 +177,14 @@ Route::get('/services/tech-expertise/rfid-solutions', function (){
   // Articles
  Route::get('/articles', [\App\Http\Controllers\IndexController::class, 'getAllArticles']);
  Route::get('/articles/news/{id}', [\App\Http\Controllers\IndexController::class, 'readArticle']);
+
+  //components / services_services /
+  Route::get('/components/services-services/game-Development', function (){
+    return view('components.services_services.game_Development');
+ });
+ Route::get('/components/services-services/search-Engine-Marketing', function (){
+    return view('components.services_services.search_Engine_Marketing');
+ });
+ Route::get('/components/services-services/mobile-Application-Development', function (){
+    return view('components.services_services.mobile_Application_Development');
+ });
