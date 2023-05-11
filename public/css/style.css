@@ -111,6 +111,10 @@ p{
     padding-bottom: 80px;
     position: relative;
 }
+#service.section {
+  background-color: #124369;
+}
+
 
 .vertical-content {
     display: -webkit-flex;

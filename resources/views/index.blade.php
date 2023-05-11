@@ -92,7 +92,7 @@
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-<section class="section bg-primary" id="service">
+<section class="section " id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
