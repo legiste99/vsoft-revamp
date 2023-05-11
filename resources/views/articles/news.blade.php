@@ -30,7 +30,7 @@
                     <a class="nav-link" href="/#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#articles">Articles</a>
+                    <a class="nav-link" href="/articles">Articles</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/#price">Store</a>
@@ -74,7 +74,7 @@
 <section class="section" id="feature">
     <div class="container">
         <div class="text-center">
-            <h4 class="title-heading">Home Affairs rejects almost 9 000 ‘refugees’ in 12 months</h4>
+            <h4 class="title-heading">{{$article[0]->Hdr}}</h4>
         </div>
         <br>
         <div class="row justify-content-center">
@@ -82,19 +82,10 @@
                 <div class="text-left">
                     <!-- <h5>Home Affairs rejects almost 9 000 ‘refugees’ in 12 months</h5> -->
                     <!-- <h6 class="title-heading">24. Apr. 2024 Cape Argus</h6> -->
-                    <p class="title-desc text-muted mt-3">24. Apr. 2024 Cape Argus</p>
+                    <p class="title-desc text-muted mt-3">{{$article[0]->PublishDate}} - {{$article[0]->source}}</p>
                     <p>
-                        Cape Town - The Department of Home Affairs (DHA) processed 10 643 newcomer asylum applications in five refugee reception centres during the 2022/23 financial year, and rejected 8 948 of them, Minister Aaron Motsoaledi revealed in Parliament.
-                        Although lobby groups are pushing against what they deem to be anti-foreigner sentiment from the DHA, a city activist grouping says Motsoaledi’s figures were slightly down from last year.
-                        The term “refugees” refers to people who have fled wars or persecution, while “asylum seekers” describes people who claim to be refugees but whose claim has not been reviewed.
-                        DA MP Adrian Roos asked Motsoaledi for the number of newcomer asylum applications processed for each refugee reception centre in the previous financial year, and how many were rejected as “unfounded”, “manifestly unfounded”, and those granted.
-                        Roos also sought the number of asylum applications processed through the backlog project funded by the United Nations High Commissioner for Refugees; the number granted refugee status; and the number of final rejections, and whether any of the final rejections were appealed through a judicial appeal at the high court.
-                        Motsoaledi said the DHA received 10 643 newcomers nationally in the 2022 calendar year, with the city-based refugee offices receiving 471 newcomers, which is the least compared with the centres in Durban, Musina, Gqeberha and the Pretoria-based Desmond Tutu Centre.
-                        He said that out of the 10 643 newcomers’ applications, only 870 were granted asylum status.
-                        The centres rejected 11 applications as “abusive”, 1 023 as “fraudulent”, 3 598 as “manifestly unfounded”, and 4 316 as “unfounded”.
-                        Motsoaledi said 6 552 application files were processed, reviewed and profiled.
-                        He said 876 applicants received final rejection and 3 705 appeals that were lodged were cancelled by asylum applicants.
-                  </p>
+                        {{$article[0]->Text}}
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6">

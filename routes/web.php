@@ -176,6 +176,4 @@ Route::get('/services/tech-expertise/rfid-solutions', function (){
 
   // Articles
  Route::get('/articles', [\App\Http\Controllers\IndexController::class, 'getAllArticles']);
- Route::get('/articles/news', function (){
-    return view('articles.news');
- });
+ Route::get('/articles/news/{id}', [\App\Http\Controllers\IndexController::class, 'readArticle']);
