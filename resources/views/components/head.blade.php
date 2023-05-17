@@ -26,3 +26,5 @@
 
 <!-- Custom  Css -->
 <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
+
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet"> -->

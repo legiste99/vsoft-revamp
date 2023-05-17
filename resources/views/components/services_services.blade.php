@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col-lg-4">
-                <a href="/services/web-services">
+                <a href="/components/services-services/search-Engine-Marketing">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="monitor"></i>
@@ -18,7 +18,7 @@
                         <div class="row mt-4">
                             <div class="col-lg-12">
                                 <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
+                                    <a href="/components/services-services/search-Engine-Marketing" class="btn btn-custom btn-round">READ MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="/services">
+                <a href="/components/services-services/mobile-Application-Development">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="smartphone"></i>
@@ -42,7 +42,7 @@
                         <div class="row mt-4">
                             <div class="col-lg-12">
                                 <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
+                                    <a href="/components/services-services/mobile-Application-Development" class="btn btn-custom btn-round">READ MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="/services">
+                <a href="/components/services-services/game-Development">
                     <div class="services-blog mt-4">
                         <div>
                             <i data-feather="smartphone"></i>
@@ -64,7 +64,7 @@
                         <div class="row mt-4">
                             <div class="col-lg-12">
                                 <div class="text-center mt-5">
-                                    <a href="/services" class="btn btn-custom btn-round">READ MORE</a>
+                                    <a href="/components/services-services/game-Development" class="btn btn-custom btn-round">READ MORE</a>
                                 </div>
                             </div>
                         </div>
