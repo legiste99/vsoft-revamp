@@ -11,7 +11,7 @@
 
 <!-- HOME START-->
 <section class="bg-home-half" id="home">
-    <div class="bg-overla"></div>
+    <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
             <div class="container">
@@ -50,12 +50,14 @@
 
         <div class="row mt-4">
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
                             <img src="images/about/Mission.jpeg" class="img-fluid rounded" alt="">
                         </div>
-
+                        </div>
+                        </div>
                         <h4>Mission</h4>
                         <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
                     </div>
@@ -63,6 +65,7 @@
             </div>
 
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -73,8 +76,9 @@
                     </div>
                 </div>
             </div>
-
+            </div>
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -86,13 +90,16 @@
                 </div>
             </div>
         </div>
-
+        
     </div>
+
 </section>
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-<section class="section " id="service">
+
+<section class="section" id="service">
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">

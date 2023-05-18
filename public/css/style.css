@@ -86,7 +86,7 @@ p{
 ================================*/
 
 .bg-overlay {
-    background-color: rgba(255, 165, 0, 0.8);
+   
     /* background-color: orange; */
     position: absolute;
     top: 0;
@@ -173,7 +173,7 @@ p{
 }
 
 .text-custom{
-    color: #007FFF;
+    color: #FF6100 ;
 }
 
 .bg-custom{
@@ -220,7 +220,7 @@ p{
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #FF6100  !important;
 }
 
 .navbar-toggle {
@@ -283,7 +283,7 @@ p{
 .nav-sticky.navbar-custom .navbar-nav li.active a,
 .nav-sticky.navbar-custom .navbar-nav li a:hover,
 .nav-sticky.navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #FF6100 !important;
 }
 
 .nav-sticky.navbar-custom .navbar-toggles {
@@ -481,7 +481,7 @@ p{
 /********DEMO 6**********/
 
 .bg-home-half {
-    background-image: url('../images/home/home-bg-macbook.jpg');
+    background-image: url('../images/home/home.gif');
     background-size: cover;
     background-position: center center;
     padding: 250px 0px 200px;
@@ -575,8 +575,8 @@ p{
     width: 10px;
     height: 5px;
     margin: 5px 7px;
-    border: 1px solid #007FFF;
-    background-color: #007FFF;
+    border: 1px solid #FF6100 ;
+    background-color: #FF6100 ;
     opacity: 0.2;
 }
 
@@ -634,13 +634,13 @@ p{
 
 .container-filter li a.active {
     color: #fff;
-    background-color: #007FFF;
-    border: 1px solid #007FFF;
+    background-color:#124369;
+    border: 1px solid #124369 ;
 }
 
 .container-filter li a:hover {
     color: #fff !important;
-    background-color: #007FFF;
+    background-color: #124369 ;
     border: 1px solid #007FFF;
 }
 
@@ -1035,4 +1035,3 @@ textarea.form-control {
     background-color: white;
     margin-bottom: 20px;
   }
-
