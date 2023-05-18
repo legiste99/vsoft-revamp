@@ -59,7 +59,7 @@ h4,
 h5 {
     font-family: 'Gordita';
     font-weight: 500;
-    color: #007FFF;
+    color: #0a3b5f;
 }
 h6 {
     font-family: 'Gordita';
@@ -518,7 +518,7 @@ p{
     font-size: 30px;
 }
 
-.services-blog svg {
+.services-blog img {
     max-width: 45px;
     float: left;
     margin-right: 20px;
@@ -533,12 +533,23 @@ p{
 }
 
 .services-blog {
-    padding: 40px;
-    background-color: #ffffff;
+    padding: 1px;
 }
 
 .services-blog h4 {
     font-size: 16px;
+}
+
+.icons{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.outlined{
+
+    border: 3px solid #282828;
+    border-radius: 10px;
 }
 
 
