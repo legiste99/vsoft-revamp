@@ -12,6 +12,11 @@
 <!-- HOME START-->
 <section class="bg-home-half" id="home">
     <div class="bg-overla"></div>
+    <div class="carousel-slider">
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
     <div class="home-center">
         <div class="home-desc-center">
             <div class="container">
@@ -31,6 +36,28 @@
         </div>
     </div>
 </section>
+<script>
+    // Automatic Carousel Slider
+var carouselSlider = document.querySelector('#home .carousel-slider');
+var slides = carouselSlider.querySelectorAll('.slide');
+var slideIndex = 0;
+
+function showSlide(index) {
+  carouselSlider.style.transform = 'translateX(-' + (index * 100) + '%)';
+}
+
+function nextSlide() {
+  slideIndex++;
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+  showSlide(slideIndex);
+}
+
+// Change slide every 5 seconds
+setInterval(nextSlide, 5000);
+
+  </script>
 <!-- HOME END-->
 
 {{-- Floating Action Button #Fab--}}
@@ -50,6 +77,7 @@
 
         <div class="row mt-4">
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -61,9 +89,10 @@
                     </div>
                 </div>
             </div>
-
+            </div>
             <div class="col-lg-4">
                 <div class="features mt-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
                     <div class="text-center">
                         <div class="mb-4">
                             <img src="images/about/Value.jpg" class="img-fluid rounded" alt="">
@@ -73,9 +102,10 @@
                     </div>
                 </div>
             </div>
-
+            </div>
             <div class="col-lg-4">
                 <div class="features mt-4">
+                <div class="shadow p-3 mb-5 bg-white rounded">
                     <div class="text-center">
                         <div class="mb-4">
                             <img src="images/about/Vision.jpg" class="img-fluid rounded" alt="">
@@ -88,145 +118,120 @@
         </div>
 
     </div>
+
+        <div class="jumbotron text-center">
+    <h1>About </h1>
+    <p>We specialize in blablabla</p>
+  </div>
 </section>
 <!-- WELCOME END -->
 
 <!-- SERVICES START -->
-<section class="section bg-light" id="service">
+<section class="section" id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading text-uppercase">Our Services</h4>
-                    <p class="title-desc text-muted mt-3">Script about our services goes here</p>
+                    <h4 class="text-white title-heading text-uppercase">Our Services</h4>
+                    <p style="color:orange">Script about our services goes here</p>
                 </div>
             </div>
         </div>
 
         <div class="row mt-4">
-
             <div class="col-lg-6">
-                <a class="card1" href="/services/web-services">
-                    <div class="services-blog">
+                <a href="/services/web-services">
+                    <div class="services-blog mt-4">
                         <div>
-                            <img class="icons" src="{{asset('images/animations/monitor.png')}}" alt="">
+                            <i data-feather="monitor"></i>
                         </div>
                         <div class="service-head">
-                            <h4 class="mb-2">Web Services</h4>
-                            <p class="text-muted mb-0">
-                                From custom web development and responsive design to robust e-commerce platforms and
-                                seamless integrations, VSOFT delivers tailored web services that align with your unique goals and drive growth. </p>
-                        </div>
-                    </div>
-                    <div class="go-corner" href="/services/web-service">
-                        <div class="go-arrow">
-                            →
+                            <h4>Web Service</h4>
+                            <p class="text-muted mb-0">Script about web services goes here</p>
                         </div>
                     </div>
                 </a>
             </div>
-
             <div class="col-lg-6">
-                <a class="card1" href="/services/enterprise-solutions">
-                    <div class="services-blog">
+                <a href="/services/enterprise-solutions">
+                    <div class="services-blog mt-4">
                         <div>
-                            <img class="icons" src="{{asset('images/animations/database.png')}}" alt="">
+                            <i data-feather="smartphone"></i>
                         </div>
                         <div class="service-head">
                             <h4 class="mb-2">Enterprise Solutions</h4>
-                            <p class="text-muted mb-0">
-                                VSOFT's enterprise solutions revolutionize the way businesses operate, streamlining
-                                processes and maximizing productivity through advanced technology and automation.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="go-corner" href="/services/enterprise-solutions">
-                        <div class="go-arrow">
-                            →
+                            <p class="text-muted mb-0">Script about Enterprise Solutions goes here</p>
                         </div>
                     </div>
                 </a>
             </div>
-
         </div>
 
         <div class="row mt-2">
-
             <div class="col-lg-6">
-                <a class="card1" href="/services/cyber-security">
-                    <div class="services-blog">
+                <a href="/services/cyber-security">
+                    <div class="services-blog mt-4">
                         <div>
-                            <img class="icons" src="{{asset('images/animations/cyber.png')}}" alt="">
+                            <i data-feather="database"></i>
                         </div>
                         <div class="service-head">
-                            <h4 class="mb-2">Cyber And Intelligence Security</h4>
-                            <p class="text-muted mb-0">
-                                Our comprehensive suite of security services includes advanced threat detection,
-                                proactive monitoring, and incident response, empowering organizations to stay one step
-                                ahead of cybercriminals.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="go-corner" href="/services/cyber-security">
-                        <div class="go-arrow">
-                            →
+                            <h4>Cyber / Intelligence Security</h4>
+                            <p class="text-muted mb-0">Script about ---Cyber / Intelligence Security--- goes here</p>
                         </div>
                     </div>
                 </a>
             </div>
-
             <div class="col-lg-6">
-                <a class="card1" href="/services/software-dev">
-                    <div class="services-blog">
+                <a href="/services/software-dev">
+                    <div class="services-blog mt-4">
                         <div>
-                            <img class="icons" src="{{asset('images/animations/phone.png')}}" alt="">
+                            <i data-feather="command"></i>
                         </div>
                         <div class="service-head">
                             <h4 class="mb-2">Software Development</h4>
-                            <p class="text-muted mb-0">
-                                VSOFT's software development services offer tailor-made solutions that align with your
-                                business objectives, delivering high-performance applications that drive efficiency and
-                                innovation.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="go-corner" href="/services/software-dev">
-                        <div class="go-arrow">
-                            →
+                            <p class="text-muted mb-0">Script about ---Software Development--- goes here</p>
                         </div>
                     </div>
                 </a>
             </div>
-
         </div>
 
         <div class="row mt-2">
-
             <div class="col-lg-6">
-                <a class="card1" href="/services/tech-expertise">
-                    <div class="services-blog">
+                <a href="/services/tech-expertise">
+                    <div class="services-blog mt-4">
                         <div>
-                            <img class="icons" src="{{asset('images/animations/phone.png')}}" alt="">
+                            <i data-feather="eye"></i>
                         </div>
                         <div class="service-head">
-                            <h4 class="mb-2">Technology Expertise</h4>
-                            <p class="text-muted mb-0">
-                                VSOFT's technology expertise services encompass a comprehensive range of solutions
-                                designed to empower businesses with the latest and most relevant technological
-                                advancements.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="go-corner" href="/services/tech-expertise">
-                        <div class="go-arrow">
-                            →
+                            <h4>Technology Expertise</h4>
+                            <p class="text-muted mb-0">Script about ---Technology Expertise--- goes here</p>
                         </div>
                     </div>
                 </a>
             </div>
 
+            <!-- <div class="col-lg-6">
+                <div class="services-blog mt-4">
+                    <div>
+                        <i data-feather="cpu"></i>
+                    </div>
+                    <div class="service-head">
+                        <h4>Technology Expertise</h4>
+                        <p class="text-muted mb-0">Documentation is not only a guide for Ave, it is a comprehensive kit fully   guide for Ave integrated with the community.</p>
+                    </div>
+                </div>
+            </div> -->
         </div>
 
+        <!-- <div class="row mt-4">
+
+            <div class="col-lg-12">
+                <div class="text-center mt-5">
+                    <a href="/services" class="btn btn-custom btn-round">See all Services</a>
+                </div>
+            </div>
+        </div> -->
     </div>
 </section>
 <!-- SERVICES END -->
@@ -547,8 +552,7 @@
                 <a href="/articles/news/{{$article->TextNo}}">
                     <div class="col-lg-4">
                         <div class="blog-menu mt-4">
-                            {{--<img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid" alt="">--}}
-                            <img src="{{asset($article->PicBigURL)}}" class="img-fluid" alt="">
+                            <img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid" alt="">
                             <div>
                                 <h4><a href="/articles/news/{{$article->TextNo}}" class="blog-title">{{$article->Hdr}}</a></h4>
                                 <p class="mt-2 text-muted">{{$article->IntroText}}</p>
