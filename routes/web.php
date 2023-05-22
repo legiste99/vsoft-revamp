@@ -188,3 +188,7 @@ Route::get('/services/tech-expertise/rfid-solutions', function (){
  Route::get('/components/services-services/mobile-Application-Development', function (){
     return view('components.services_services.mobile_Application_Development');
  });
+
+
+ //Sending Mail
+Route::post('/', [\App\Http\Controllers\EmailController::class, 'sendEmail'])->name('email-sent');
