@@ -189,7 +189,7 @@ p{
 }
 
 .navbar-custom .navbar-nav li a {
-    color: #fff;
+    color: #000;
     font-size: 11px;
     transition: all 0.5s;
     letter-spacing: 0.03rem;
