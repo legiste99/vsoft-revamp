@@ -192,3 +192,6 @@ Route::get('/services/tech-expertise/rfid-solutions', function (){
 
  //Sending Mail
 Route::post('/', [\App\Http\Controllers\EmailController::class, 'sendEmail'])->name('email-sent');
+
+//Temporary Home index
+Route::get('/index-temp', [\App\Http\Controllers\IndexController::class, 'tempGetData']);

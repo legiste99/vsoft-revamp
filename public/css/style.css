@@ -483,6 +483,13 @@ p{
     padding: 250px 0px 200px;
     position: relative;
 }
+
+.bg-home-half-temp {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
 .bg-home-half-two {
     background-image: url('../images/home/home-bg-macbook.jpg');
     background-size: cover;

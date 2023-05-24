@@ -10,8 +10,8 @@
 	3.  BASIC
     4.  LOADER
 	5.  HEADER
-	      - Header Top 
-	      - Menu 
+	      - Header Top
+	      - Menu
 	      - Search Bar
 	      - Side Menu
 		  - Fix Header
@@ -30,13 +30,13 @@
 	11. INNER PAGE BANNER
 	12. SIDEBAR
 	     - Sidebar Search
-	13. BLOG	
-         - Blog Detail	
+	13. BLOG
+         - Blog Detail
 	14. CASE STUDIES
 	15. SHOP
     16. FOOTER
 	17. CUSTOM
-		
+
 	-------------------------------------------------------------------*/
 
 
@@ -946,7 +946,7 @@ header .right_bt .btn {
 .top_information.pull-right li {
 	margin-left: 20px;
 }
-
+/*
 .logo {
 	float: left;
 	margin: 19px 0 19px;
@@ -956,7 +956,7 @@ header .right_bt .btn {
 
 .logo img {
 	height: 80px;
-}
+}*/
 
 .header_style_1 .header_top {
 	position: relative;
@@ -3201,7 +3201,7 @@ span.skill {
 
 
 /*------------------------------------------------------------------
-	17. TESTMONIAL 
+	17. TESTMONIAL
 	-------------------------------------------------------------------*/
 
 .testmonial_section {
