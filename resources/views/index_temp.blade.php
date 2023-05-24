@@ -2,435 +2,262 @@
 <html>
 <head>
     <x-head/>
+
 </head>
 
 <body>
-    <!-- header -->
-<header id="default_header" class="header_style_1">
-  <!-- header top -->
-  <div class="header_top">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="full">
-            <div class="topbar-left">
-              <ul class="list-inline">
-                <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight">540 Lorem Ipsum New York, AB 90218</span> </li>
-                <li> <span class="topbar-label"><i class="fa fa-envelope-o"></i></span> <span class="topbar-hightlight"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></span> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 right_section_header_top">
-          <div class="float-left">
-            <div class="social_icon">
-              <ul class="list-inline">
-                <li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
-                <li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
-                <li><a class="fa fa-twitter" href="https://twitter.com" title="Twitter" target="_blank"></a></li>
-                <li><a class="fa fa-linkedin" href="https://www.linkedin.com" title="LinkedIn" target="_blank"></a></li>
-                <li><a class="fa fa-instagram" href="https://www.instagram.com" title="Instagram" target="_blank"></a></li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="float-right">
-            <div class="make_appo"> <a class="btn white_btn" href="make_appointment.html">Make Appointment</a> </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end header top -->
-</header>
-<!-- end header -->
 <!-- NAVBAR -->
 <x-home_nav/>
 <!-- NAVBAR END-->
 
+<!-- HOME START-->
+
 <!-- section -->
-<!-- <section class="bg-home-half" id="home"> -->
-<div id="slider" class="section main_slider" id="home">
-  <div class="container-fuild">
-    <div class="row">
-      <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-        <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
-        <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
-          <ul>
-            <li data-index="rs-1812" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Computer Services" data-description="">
-              <!-- MAIN IMAGE -->
-              <img src="forHome/images/it_service/slide1.jpg"  alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-              <!-- LAYERS -->
-              <!-- LAYER NR. BG -->
-              <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
-                              id="slide-270-layer-1012"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-width="full"
-                              data-height="full"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                              data-transform_out="s:300;s:300;"
-                              data-start="750"
-                              data-basealign="slide"
-                              data-responsive_offset="on"
-                              data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-912"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;"
-                              data-mask_out="x:inherit;y:inherit;"
-                              data-start="2000"
-                              data-responsive_offset="on"
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-112"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-fontsize="['70','70','70','35']"
-                              data-lineheight="['70','70','70','50']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1000"
-                              data-splitin="chars"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              data-elementdelay="0.05"
-                              style="z-index: 6; white-space: nowrap;">Computer Services </div>
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-412"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1500"
-                              data-splitin="none"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
-            </li>
-            <li data-index="rs-181" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Easy To Use & Customize" data-description="">
-              <!-- MAIN IMAGE -->
-              <img src="forHome/images/it_service/slide2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-              <!-- LAYERS -->
-              <!-- LAYER NR. BG -->
-              <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
-                              id="slide-270-layer-101"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-width="full"
-                              data-height="full"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                              data-transform_out="s:300;s:300;"
-                              data-start="750"
-                              data-basealign="slide"
-                              data-responsive_offset="on"
-                              data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-91"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;"
-                              data-mask_out="x:inherit;y:inherit;"
-                              data-start="2000"
-                              data-responsive_offset="on"
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-11"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-fontsize="['70','70','70','35']"
-                              data-lineheight="['70','70','70','50']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1000"
-                              data-splitin="chars"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              data-elementdelay="0.05"
-                              style="z-index: 6; white-space: nowrap;">Fast & Affordable </div>
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-41"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1500"
-                              data-splitin="none"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
-            </li>
-            <li data-index="rs-18" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Perfectly Responsive" data-description="">
-              <!-- MAIN IMAGE -->
-              <img src="forHome/images/it_service/slide3.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-              <!-- LAYERS -->
-              <!-- LAYER NR. BG -->
-              <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
-                              id="slide-270-layer-10"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-width="full"
-                              data-height="full"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                              data-transform_out="s:300;s:300;"
-                              data-start="750"
-                              data-basealign="slide"
-                              data-responsive_offset="on"
-                              data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-9"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;"
-                              data-mask_out="x:inherit;y:inherit;"
-                              data-start="2000"
-                              data-responsive_offset="on"
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-1"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                              data-fontsize="['70','70','70','35']"
-                              data-lineheight="['70','70','70','50']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1000"
-                              data-splitin="chars"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              data-elementdelay="0.05"
-                              style="z-index: 6; white-space: nowrap;">We Will Fix It </div>
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
-                              id="slide-18-layer-4"
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                              data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
-                              data-width="none"
-                              data-height="none"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                              data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                              data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                              data-start="1500"
-                              data-splitin="none"
-                              data-splitout="none"
-                              data-responsive_offset="on"
-                              style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
-            </li>
-          </ul>
-          <div class="tp-static-layers"></div>
+<div id="slider" class="section main_slider">
+    <div class="container-fuild">
+        <div class="row">
+            <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+                <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                    <ul>
+                        <li data-index="rs-1812" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Computer Services" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="forHome/images/it_service/slide1.jpg"  alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. BG -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
+                                 id="slide-270-layer-1012"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-width="full"
+                                 data-height="full"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-start="750"
+                                 data-basealign="slide"
+                                 data-responsive_offset="on"
+                                 data-responsive="off"
+                                 style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-912"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
+                                 data-width="500"
+                                 data-height="140"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;"
+                                 data-mask_out="x:inherit;y:inherit;"
+                                 data-start="2000"
+                                 data-responsive_offset="on"
+                                 style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-112"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-fontsize="['70','70','70','35']"
+                                 data-lineheight="['70','70','70','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1000"
+                                 data-splitin="chars"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 data-elementdelay="0.05"
+                                 style="z-index: 6; white-space: nowrap;">Computer Services </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-412"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
+                        </li>
+                        <li data-index="rs-181" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Easy To Use & Customize" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="forHome/images/it_service/slide2.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. BG -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
+                                 id="slide-270-layer-101"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-width="full"
+                                 data-height="full"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-start="750"
+                                 data-basealign="slide"
+                                 data-responsive_offset="on"
+                                 data-responsive="off"
+                                 style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-91"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
+                                 data-width="500"
+                                 data-height="140"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;"
+                                 data-mask_out="x:inherit;y:inherit;"
+                                 data-start="2000"
+                                 data-responsive_offset="on"
+                                 style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-11"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-fontsize="['70','70','70','35']"
+                                 data-lineheight="['70','70','70','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1000"
+                                 data-splitin="chars"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 data-elementdelay="0.05"
+                                 style="z-index: 6; white-space: nowrap;">Fast & Affordable </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-41"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
+                        </li>
+                        <li data-index="rs-18" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/it_service/slide3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Perfectly Responsive" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="forHome/images/it_service/slide3.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. BG -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0"
+                                 id="slide-270-layer-10"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-width="full"
+                                 data-height="full"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-start="750"
+                                 data-basealign="slide"
+                                 data-responsive_offset="on"
+                                 data-responsive="off"
+                                 style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-9"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']"
+                                 data-width="500"
+                                 data-height="140"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;"
+                                 data-mask_out="x:inherit;y:inherit;"
+                                 data-start="2000"
+                                 data-responsive_offset="on"
+                                 style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-1"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                 data-fontsize="['70','70','70','35']"
+                                 data-lineheight="['70','70','70','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1000"
+                                 data-splitin="chars"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 data-elementdelay="0.05"
+                                 style="z-index: 6; white-space: nowrap;">We Will Fix It </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0"
+                                 id="slide-18-layer-4"
+                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                 data-y="['middle','middle','middle','middle']" data-voffset="['52','51','51','31']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                                 data-start="1500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap;">Available On It.Next </div>
+                        </li>
+                    </ul>
+                    <div class="tp-static-layers"></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
-<!-- </section> -->
 <!-- end section -->
 
-<!-- HOME START-->
-<!-- <section class="bg-home-half" id="home">
-    <div class="bg-overlay"></div>
-    <div class="carousel">
-        <div class="progress-bar progress-bar--primary hide-on-desktop">
-            <div class="progress-bar__fill"></div>
-        </div>
 
-        <header class="main-post-wrapper">
-
-            <div class="slides">
-                <article class="main-post main-post--active">
-                    <div class="main-post__image">
-                        <img src="https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Monaco2019/McLarenMonaco19.jpg.transform/9col/image.jpg" alt="New McLaren wind tunnel 'critical' to future performance, says Tech Director Key" />
-                    </div>
-                    <div class="main-post__content">
-                        <div class="main-post__tag-wrapper">
-                            <span class="main-post__tag">News</span>
-                        </div>
-                        <h1 class="main-post__title">New McLaren wind tunnel 'critical' to future performance, says Tech Director Key</h1>
-                        <a class="main-post__link" href="#">
-                            <span class="main-post__link-text">find out more</span>
-                            <svg
-                                class="main-post__link-icon main-post__link-icon--arrow"
-                                width="37"
-                                height="12"
-                                viewBox="0 0 37 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
-                                    stroke="white"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-                <article class="main-post main-post--not-active">
-                    <div class="main-post__image">
-                        <img src="https://www.formula1.com/content/dam/fom-website/sutton/2019/Hungary/Saturday/1017645792-LAT-20190803-_2ST5188.jpg.transform/9col-retina/image.jpg" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
-                    </div>
-                    <div class="main-post__content">
-                        <div class="main-post__tag-wrapper">
-                            <span class="main-post__tag">Video</span>
-                        </div>
-                        <h1 class="main-post__title">What To Watch For in the 2019 Hungarian Grand Prix</h1>
-                        <a class="main-post__link" href="#">
-                            <svg
-                                class="main-post__link-icon main-post__link-icon--play-btn"
-                                width="30"
-                                height="30"
-                                viewBox="0 0 20 20"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <circle
-                                    cx="10"
-                                    cy="10"
-                                    r="9"
-                                    stroke="#C20000"
-                                    stroke-width="2"
-                                />
-                                <path d="M14 10L8 6V14L14 10Z" fill="white" />
-                            </svg>
-                            <span class="main-post__link-text">play video</span>
-                        </a>
-                    </div>
-                </article>
-                <article class="main-post main-post--not-active">
-                    <div class="main-post__image">
-                        <img src="https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/Austria-2019/Top3Austria2019.jpg.transform/9col-retina/image.jpg" alt="Hamilton wants harder championship fight from Leclerc and
-            Verstappen" />
-                    </div>
-                    <div class="main-post__content">
-                        <div class="main-post__tag-wrapper">
-                            <span class="main-post__tag">News</span>
-                        </div>
-                        <h1 class="main-post__title">Hamilton wants harder championship fight from Leclerc and Verstappen
-                        </h1>
-                        <a class="main-post__link" href="#">
-                            <span class="main-post__link-text">find out more</span>
-                            <svg
-                                class="main-post__link-icon main-post__link-icon--arrow"
-                                width="37"
-                                height="12"
-                                viewBox="0 0 37 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
-                                    stroke="white"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </header>
-
-        <div class="posts-wrapper hide-on-mobile">
-            <article class="post post--active">
-                <div class="progress-bar">
-                    <div class="progress-bar__fill"></div>
-                </div>
-                <header class="post__header">
-                    <span class="post__tag">News</span>
-                    <p class="post__published">16 August 2019</p>
-                </header>
-                <h2 class="post__title">New McLaren wind tunnel 'critical' to future performance, says Tech Director Key</h2>
-            </article>
-            <article class="post">
-                <div class="progress-bar">
-                    <div class="progress-bar__fill"></div>
-                </div>
-                <header class="post__header">
-                    <span class="post__tag">Video</span>
-                    <p class="post__published">12 August 2019</p>
-                </header>
-                <h2 class="post__title">What To Watch For in the 2019 Hungarian Grand Prix</h2>
-            </article>
-            <article class="post">
-                <div class="progress-bar">
-                    <div class="progress-bar__fill"></div>
-                </div>
-                <header class="post__header">
-                    <span class="post__tag">News</span>
-                    <p class="post__published">08 August 2019</p>
-                </header>
-                <h2 class="post__title">Hamilton wants harder championship fight from Leclerc and Verstappen
-                </h2>
-            </article>
-        </div>
-    </div>
-    <main style="min-height: 100vh; background: red;"></main>
-</section> -->
 <!-- HOME END-->
 
 {{-- Floating Action Button #Fab--}}
@@ -798,23 +625,24 @@
                 <div id="owl-demo" class="owl-carousel">
 
                     @foreach($testimonials as $testimonial)
-                    <div class="testi-box">
-                        <div class="text-center +mt-4">
-                            <div class="testi-content">
-                                <p class="user-review text-center mb-0">"{{$testimonial->Descr}}"</p>
-                            </div>
-                            {{-- <div class="mt-4">
-                                <img src="images/client/11.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
-                            </div> --}}
-                            <div class="img-post text-center">
-                                <p class="testi-patients text-muted mb-1 mt-3">Client</p>
-                                <h5 class="testi-client-name">{{$testimonial->Name}}</h5>
+                        <div class="testi-box">
+                            <div class="text-center +mt-4">
+                                <div class="testi-content">
+                                    <p class="user-review text-center mb-0">"{{$testimonial->Descr}}"</p>
+                                </div>
+ <div class="mt-4">
+                                    <img src="images/client/11.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
+                                </div>
+
+                                <div class="img-post text-center">
+                                    <p class="testi-patients text-muted mb-1 mt-3">Client</p>
+                                    <h5 class="testi-client-name">{{$testimonial->Name}}</h5>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     @endforeach
 
-                    {{--<div class="testi-box">
+<div class="testi-box">
                         <div class="text-center mt-4">
                             <div class="testi-content">
                                 <p class="user-review text-center mb-0">" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English."</p>
@@ -842,7 +670,8 @@
                                 <h5 class="testi-client-name">Norden Sophie</h5>
                             </div>
                         </div>
-                    </div>--}}
+                    </div>
+
 
                 </div>
             </div>
@@ -978,7 +807,7 @@
                 <div class="contact-head text-center">
                     <h4 class="title-heading text-uppercase">Contact us</h4>
                     <p style="color:orange">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
-                                                            We will get back to you as soon as we can.</p>
+                        We will get back to you as soon as we can.</p>
                 </div>
             </div>
         </div>
@@ -1082,10 +911,10 @@
 </section>
 <!-- CONTACT END -->
 
+
 <!-- FOOTER START -->
 <x-footer/>
 <!-- FOOTER END -->
-
 <!-- JAVASCRIPTS -->
 <x-javascript/>
 

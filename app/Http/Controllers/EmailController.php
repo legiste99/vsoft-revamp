@@ -17,7 +17,7 @@ class EmailController extends Controller
         ]);
 
         $mailData = $request->all();
-        $email = 'info@vsoftsystem.co.za';
+        $email = 'info@vsoftsystems.co.za';
 
         Mail::to($email)->send(new Email($mailData));
 

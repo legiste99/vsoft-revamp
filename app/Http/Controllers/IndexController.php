@@ -18,6 +18,15 @@ class IndexController extends Controller
 
     }
 
+    public function tempGetData(){
+
+        $testimonials = Testimonial::orderBy('CreDate', 'desc')->take(3)->get();
+        $articles = NewsArticles::orderBy('PublishDate', 'desc')->take(3)->get();
+
+        return \view('index_temp', compact('testimonials', 'articles'));
+
+    }
+
     public function getAllArticles(){
 
         $allArticles = NewsArticles::orderBy('PublishDate', 'desc')->paginate(9);
