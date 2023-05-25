@@ -48,11 +48,13 @@ body {
     color: #525456;
 }
 
-h1,
+h1{
+    color: white;
+}
 h2{
     font-family: 'Gordita';
     font-weight: 500;
-    color: #007FFF;
+    color: #0a3b5f;
 }
 h3,
 h4,
@@ -64,6 +66,7 @@ h5 {
 h6 {
     font-family: 'Gordita';
     font-weight: 500;
+    color: #FF6100;
 }
 
 h6 {
@@ -133,7 +136,7 @@ p{
     font-size: 15px;
     transition: all 0.4s;
     background: #fff;
-    color:#007FFF !important;
+    color:#124369 !important;
 }
 
 .btn-custom-white:hover,
@@ -153,7 +156,7 @@ p{
     font-size: 15px;
     transition: all 0.4s;
     color: #fff !important;
-    background:#007FFF!important;
+    background:#124369!important;
 }
 
 .btn {
@@ -169,11 +172,11 @@ p{
 }
 
 .text-custom{
-    color: #007FFF;
+    color: #FF6100;
 }
 
 .bg-custom{
-    background-color: #007FFF;
+    background-color: #124369;
 }
 
 /*===============================
@@ -216,7 +219,7 @@ p{
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #ff6100 !important;
 }
 
 .navbar-toggle {
@@ -230,7 +233,7 @@ p{
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: transparent;
-    border-color: #007FFF;
+    border-color: #124369;
 }
 
 .navbar-custom .navbar-toggles {
@@ -279,7 +282,7 @@ p{
 .nav-sticky.navbar-custom .navbar-nav li.active a,
 .nav-sticky.navbar-custom .navbar-nav li a:hover,
 .nav-sticky.navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #ff6100 !important;
 }
 
 .nav-sticky.navbar-custom .navbar-toggles {
@@ -393,7 +396,7 @@ p{
 }
 
 .registration-input-box:focus {
-    border-color: #007FFF;
+    border-color: #124369;
 }
 
 /*******DEMO 3*******/
@@ -511,6 +514,49 @@ p{
 .features h4 {
     font-size: 18px;
 }
+/******************
+about us
+******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.home{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.about{
+    background: url(../images/home/SUV4.gif) no-repeat left;
+    background-size: 50%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: #FF6100;
+    padding: 100px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+
 
 /************************
    6. SERVICES
@@ -648,8 +694,8 @@ p{
 
 .container-filter li a.active {
     color: #fff;
-    background-color: #007FFF;
-    border: 1px solid #007FFF;
+    background-color: #124369;
+    border: 1px solid #124369;
 }
 
 .container-filter li a:hover {
@@ -865,7 +911,7 @@ p{
 
 .form-control {
     height: 46px;
-    border: 1px solid #007FFF;
+    border: 1px solid #124369;
     font-size: 14px;
 }
 
@@ -874,7 +920,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-    border-color: #007FFF;
+    border-color: #ff6100;
     outline: 0;
     box-shadow: none;
 }

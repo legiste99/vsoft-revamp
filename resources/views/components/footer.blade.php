@@ -4,7 +4,10 @@
             <div class="col-lg-3">
                 <div class="footer-menu">
                     <h5 class="mb-4 text-uppercase">VSoft Systems</h5>
-                    <p>The Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium eaque quae ab illo inventore veritatis et.</p>
+                    <p>WE HAVE DEVELOPED CUTTING-EDGE, ROBUST AND PROVEN
+TECHNICAL CAPABILITIES AIMED AT PROVIDING SOLUTIONS
+TO OUR CUSTOMER’S BUSINESS PROBLEMS USING INDUSTRY
+STANDARD TECHNOLOGY.</p>
                     <div class="text-white">
                         <a href="#facebook"><i class="mdi mdi-facebook facebook footer_mdi"></i></a>
                         <a href="#twitter"><i class="mdi mdi-twitter twitter footer_mdi"></i></a>
@@ -87,7 +90,7 @@
                     <!-- </div> -->
             </div>
         </div>
-<!-- 
+<!--
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center mt-5">

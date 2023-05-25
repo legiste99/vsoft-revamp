@@ -76,19 +76,19 @@
 <div class="container">
   <div class="row gx-4 justify-content-centre">
     <div class="col-md-6">
-    <h6 style="text-align: justify;"> <span style="color: blue;">EXPERT SERVICES</span></h6>
+    <h6 style="text-align: justify;"> <span style="color: #ff1600;">EXPERT SERVICES</span></h6>
     <h4 class="header1"><br>Software </br>
-        Development<br> and 
+        Development<br> and
         Programming </br></h4>
-    <p>Developing the right software solutions for your business and integrating complex systems is both an art and a science – a symphony, 
+    <p>Developing the right software solutions for your business and integrating complex systems is both an art and a science – a symphony,
         if you like – and it’s what we do best. We partner with the top technical people in the World ,
          and this talented team builds strategic software solutions to successfully orchestrate your online business. We specialise in business analysis,
           technology consulting, custom software development and complex integration</p>
-          
-      
+
+
         <p> software development It is often more effective to build specifically tailored solutions as opposed to using shelf products.
              Such customised systems can range from database software to tracking clients to enabling the exchange of data between unrelated systems.
-            To ensure that the customised solution delivered meets the business intent on time and within budget, 
+            To ensure that the customised solution delivered meets the business intent on time and within budget,
             the projects demand close liaison between the client and software development company and this is where we excel.<br><p></p>
             Our software development focus is on the delivery of custom line-of-business systems,
             data-driven applications, enterprise software solutions, system integration as well as internet and mobile applications. Our solutions are based on established software design methodologies and current software architecture principles.</br></p>
@@ -106,10 +106,10 @@
   <li>Database development</li>
   <li>Business Intelligence and Master Data Management</li>
 </ul>
-
+</div>
     <div class="col-md-6">
     <div class="mb-4">
-  <img src="/images/about/sdPrograming1.jpg" class="img-fluid rounded" alt="">
+  <img src="/images/services/software_development_images/sdPrograming1.jpg" class="img-fluid rounded" alt="">
 </div>
 
     </div>

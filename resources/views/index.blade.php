@@ -445,13 +445,37 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Starting with Vsoft Systems is easier than anything!</h4>
-                    <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p style="color:#ff6100">Unveiling Our Story and Commitment.</p>
                 </div>
             </div>
         </div>
 
+      <div class="about">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+            SOFT Systems (VSOFT) is a high technology focused company
+           established in 2004 with a view to offer a
+            broad based offer covering consulting,
+            software and web application.
+            <br>
+            <br>
+            Our service area covers the software
+            development life cycle using today’s
+            languages on multiple development
+            platforms.
+            <br>
+            <br>
+
+            </p>
+
+        </div>
+    </div>
+
+
         <div class="row mt-4">
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -459,24 +483,26 @@
                         </div>
 
                         <h4>Mission</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our mission at Vsoft Systems is to empower businesses with the full transformative potential of technology. We achieve this by offering expert web and software development services customized to their specific needs and goals.</p>
                     </div>
                 </div>
             </div>
-
+            </div>
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
                             <img src="images/about/Value.jpg" class="img-fluid rounded" alt="">
                         </div>
                         <h4>Vision</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to become a top provider of advanced web and software development services. We aim to be recognized for our technical prowess, creativity, and unwavering dedication to delivering exceptional value to our clients.</p>
                     </div>
                 </div>
             </div>
-
+           </div>
             <div class="col-lg-4">
+            <div class="shadow p-3 mb-5 bg-white rounded">
                 <div class="features mt-4">
                     <div class="text-center">
                         <div class="mb-4">
@@ -489,7 +515,7 @@
             </div>
         </div>
 
-    </div>
+
 </section>
 <!-- WELCOME END -->
 
@@ -500,7 +526,10 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">Our Services</h4>
-                    <p class="title-desc text-muted mt-3">Script about our services goes here</p>
+                    <p class="title-desc text-muted mt-3">Our service area covers the software
+                                                        development life cycle using today’s
+                                                        languages on multiple development
+                                                        platforms. </p>
                 </div>
             </div>
         </div>
@@ -640,7 +669,7 @@
             <div class="col-lg-6">
                 <div class="text-center">
                     <h4 class="title-heading text-uppercase">Our Portfolio</h4>
-                    <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
+                    <p style="color:#ff1600"> The range of services offered, innovative solutions developed, and successful implementations</p>
                 </div>
             </div>
         </div>
@@ -789,8 +818,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class=" text-center">
-                    <h4 class="title-heading text-uppercase">Testimonial</h4>
-                    <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <h4 class="title-heading text-uppercase">Client Testimonial</h4>
+                    <p style="color:#ff1600">What Our Clients Say</p>
                 </div>
             </div>
         </div>
@@ -859,8 +888,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-center">
-                    <h4 class="title-heading text-uppercase">OUR AMAZING TEAM</h4>
-                    <p style="color:orange">Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
+                    <h4 class="title-heading text-uppercase">MEET OUR AMAZING TEAM</h4>
+                    <p style="color:#FF1600">The Experts Behind Our Success
 
                     </p>
                 </div>
@@ -873,7 +902,7 @@
                     <img src="images/team/rusty.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Rusty M. Adecel</h4>
-                        <p style="color:orange">Developper</p>
+                        <p style="color:#ff1600">Developper</p>
                     </div>
                 </div>
             </div>
@@ -883,7 +912,7 @@
                     <img src="images/team/michael.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Marcelle Gant</h4>
-                        <p style="color:orange">Designer</p>
+                        <p style="color:#ff1600">Designer</p>
                     </div>
                 </div>
             </div>
@@ -893,7 +922,7 @@
                     <img src="images/team/prince.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Aude Boyd</h4>
-                        <p style="color:orange">Manager</p>
+                        <p style="color:#ff1600">Manager</p>
                     </div>
                 </div>
             </div>
@@ -903,7 +932,7 @@
                     <img src="images/team/joseph.jpg" class="img-fluid" alt="">
                     <div>
                         <h4 class="mt-3">Carlos A. Kilgore</h4>
-                        <p style="color:orange">Founder</p>
+                        <p style="color:#ff1600">Founder</p>
                     </div>
                 </div>
             </div>
@@ -936,8 +965,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading text-uppercase">Latest News</h4>
-                    <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results.</p>
+                    <h4 class="title-heading text-uppercase">Latest News and Updates</h4>
+                    <p style="color:#ff1600">Stay Informed with Our Latest Developments.</p>
                 </div>
             </div>
         </div>
@@ -978,9 +1007,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="contact-head text-center">
-                    <h4 class="title-heading text-uppercase">Contact us</h4>
-                    <p style="color:orange">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
-                                                            We will get back to you as soon as we can.</p>
+                    <h4 class="title-heading text-uppercase">Get in Touch</h4>
+                    <p style="color:#ff1600">Contact Us Today for Expert Assistance</p>
                 </div>
             </div>
         </div>
