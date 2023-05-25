@@ -57,7 +57,7 @@
                             <h2 class="home-title mb-4">Game Development</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/services/software-development" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+                                <a href="/services/software-development" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">More Services</i></a>
                             </div>
                         </div>
                     </div>
@@ -77,13 +77,13 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="text-center">
-                    <h4 class="title-heading">Game Development </h4> 
+                    <h4 class="title-heading">Game Development </h4>
                     <div class="card">
                   <div class="card-body">
-             
-             <p class="card-text">The wide spread use of mobile phones has led to an increase in the demand for entertainment options on the mobile phone. 
+
+             <p class="card-text">The wide spread use of mobile phones has led to an increase in the demand for entertainment options on the mobile phone.
                 The enhancements in mobile phone technologies and the ease with which games can be accessed and played have led to the popularity of mobile games.
-           Vsoft Systems helps clients in cashing on this booming industry by offering its services in designing and developing a whole range of games that can be played though the micro-browser in-built with the phone. 
+           Vsoft Systems helps clients in cashing on this booming industry by offering its services in designing and developing a whole range of games that can be played though the micro-browser in-built with the phone.
            At Vsoft Systems, J2ME (a JAVA Programming Language developed by Sun Microsystems that gas been optimized for portable devices such as mobile phones, PDA etc)
             is the preferred programming language for developing mobile games because of its portability and compatibility with various handsets.</br>
          In designing games for mobile phones we keep in mind the limitations of the medium (such as small screen size, limited processing power etc).
@@ -97,33 +97,59 @@
   </div>
 </div>
 <div class="container">
-<div class="mb-3">
-    <img src="/images/about/game_dev.jpg" class="img-fluid rounded alt=" >
-    </div>
+
 </div>
 <h3>The range of mobile games that we can develop includes the following:<b></h3>
 <div class="row">
   <div class="col-md-2">
-  
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
     <img src="/images/about/SoftwareDev/jigsaw.png" class="img-fluid rounded alt=" >
-   
+</div>
+<h6>Puzzle Games</h6>
+</div>
   </div>
   <div class="col-md-2">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
   <img src="/images/about/SoftwareDev/scrabble.png" class="img-fluid rounded alt=" >
   </div>
+  <h6>Word Games</h6>
+</div>
+  </div>
   <div class="col-md-2">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
   <img src="/images/about/SoftwareDev/money.png" class="img-fluid rounded alt=" >
   </div>
+  <h6>Betting Games</h6>
+  </div>
+  </div>
   <div class="col-md-2">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
     <img src="/images/about/SoftwareDev/battle.png" class="img-fluid rounded alt=" >
 </div>
+<h6>Multiplayer Games</h6>
+</div>
+  </div>
   <div class="col-md-2">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
   <img src="/images/about/SoftwareDev/board-game.png" class="img-fluid rounded alt=" >
   </div>
+  <h6>Boards Games</h6>
+  </div>
+  </div>
   <div class="col-md-2">
+  <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="text-center">
   <img src="/images/about/SoftwareDev/poker-cards.png" class="img-fluid rounded alt=" >
   </div>
+  <h6>Cards Games</h6>
 </div>
+</div>
+  </div>
 </section>
 <!-- WELCOME END -->
 

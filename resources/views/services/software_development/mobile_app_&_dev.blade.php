@@ -77,11 +77,11 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading"><span style="color: blue;">Mobile Application Programming</span></h4>
+                    <h4 class="title-heading"><span style="color: #124369;">Mobile Application & Development</span></h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                     <span style="color: orange;">Mobility has become an essential element for the success of any business, </b></span>
-                    a factor that is the main reason behind mobile solutions becoming an important part of businesses big and small. Mobile solutions, 
+                    a factor that is the main reason behind mobile solutions becoming an important part of businesses big and small. Mobile solutions,
                     by providing easy access to information anywhere and anytime can deliver the benefits of mobility throughout an organization <br>
                   </p>
                 </div>
@@ -92,7 +92,7 @@
   <div class="row">
     <div class="col">
     <div class="mb-4">
-  <img src="/images/about/development.png" class="img-fluid rounded" alt="">
+  <img src="/images/services/software_development_images/development.png" class="img-fluid rounded" alt="">
   <h2><span style="color: orange;">Enterprise <br> Mobility <br> Solutions</span></h2>
 </div>
 
@@ -117,8 +117,6 @@
 </p>
     </div>
     <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
   </div>
 </div>
 
